@@ -8,6 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EVNCameraController : UIViewController
+/**
+ * 相机拍摄代理
+ */
+@protocol EVNCameraControllerDelegate <NSObject>
+
+- (void)cameraDidFinishShootWithCameraImage:(UIImage *)cameraImage;
 
 @end
+
+
+/**
+ * 自定义相机视图控制器
+ */
+@interface EVNCameraController : UIViewController
+
+
+@property (weak, nonatomic) id<EVNCameraControllerDelegate> cameraControllerDelegate;
+
+
+@end
+

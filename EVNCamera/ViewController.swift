@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, EVNCameraControllerDelegate
+{
 
     @IBOutlet weak var openCameraBtn: UIButton!
 
@@ -28,8 +29,14 @@ class ViewController: UIViewController {
 
     @IBAction func openCameraAction(_ sender: Any)
     {
-
+        let cameraController:EVNCameraController = EVNCameraController.init()
+        cameraController.cameraControllerDelegate = self;
+        self.present(cameraController, animated: true, completion: nil)
     }
 
+    func cameraDidFinishShoot(withCameraImage cameraImage: UIImage!)
+    {
+        self.previewImageView.image = cameraImage;
+    }
 }
 
