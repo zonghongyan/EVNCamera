@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B3B914E1EEA31A700CDAEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */; };
+		8B3B91501EEA31A700CDAEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B914F1EEA31A700CDAEFC /* ViewController.swift */; };
+		8B3B91531EEA31A700CDAEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91511EEA31A700CDAEFC /* Main.storyboard */; };
+		8B3B91551EEA31A700CDAEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91541EEA31A700CDAEFC /* Assets.xcassets */; };
+		8B3B91581EEA31A700CDAEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91561EEA31A700CDAEFC /* LaunchScreen.storyboard */; };
+		8B3B91631EEA31A700CDAEFC /* EVNCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B91621EEA31A700CDAEFC /* EVNCameraTests.swift */; };
+		8B3B916E1EEA31A700CDAEFC /* EVNCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B916D1EEA31A700CDAEFC /* EVNCameraUITests.swift */; };
+		8B3B91801EEA358000CDAEFC /* EVNCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B3B915F1EEA31A700CDAEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3B91421EEA31A700CDAEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3B91491EEA31A700CDAEFC;
+			remoteInfo = EVNCamera;
+		};
+		8B3B916A1EEA31A700CDAEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3B91421EEA31A700CDAEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3B91491EEA31A700CDAEFC;
+			remoteInfo = EVNCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVNCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B3B914F1EEA31A700CDAEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3B91521EEA31A700CDAEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B3B91541EEA31A700CDAEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B3B91571EEA31A700CDAEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B3B91591EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVNCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3B91621EEA31A700CDAEFC /* EVNCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVNCameraTests.swift; sourceTree = "<group>"; };
+		8B3B91641EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVNCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3B916D1EEA31A700CDAEFC /* EVNCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVNCameraUITests.swift; sourceTree = "<group>"; };
+		8B3B916F1EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3B917D1EEA358000CDAEFC /* EVNCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EVNCamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B3B917E1EEA358000CDAEFC /* EVNCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVNCameraController.h; sourceTree = "<group>"; };
+		8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVNCameraController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B3B91471EEA31A700CDAEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B915B1EEA31A700CDAEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B91661EEA31A700CDAEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B3B91411EEA31A700CDAEFC = {
+			isa = PBXGroup;
+			children = (
+				8B3B917C1EEA355300CDAEFC /* EVNCameraController */,
+				8B3B914C1EEA31A700CDAEFC /* EVNCamera */,
+				8B3B91611EEA31A700CDAEFC /* EVNCameraTests */,
+				8B3B916C1EEA31A700CDAEFC /* EVNCameraUITests */,
+				8B3B914B1EEA31A700CDAEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3B914B1EEA31A700CDAEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */,
+				8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */,
+				8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B3B914C1EEA31A700CDAEFC /* EVNCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */,
+				8B3B914F1EEA31A700CDAEFC /* ViewController.swift */,
+				8B3B91511EEA31A700CDAEFC /* Main.storyboard */,
+				8B3B91541EEA31A700CDAEFC /* Assets.xcassets */,
+				8B3B91561EEA31A700CDAEFC /* LaunchScreen.storyboard */,
+				8B3B91591EEA31A700CDAEFC /* Info.plist */,
+			);
+			path = EVNCamera;
+			sourceTree = "<group>";
+		};
+		8B3B91611EEA31A700CDAEFC /* EVNCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B91621EEA31A700CDAEFC /* EVNCameraTests.swift */,
+				8B3B91641EEA31A700CDAEFC /* Info.plist */,
+			);
+			path = EVNCameraTests;
+			sourceTree = "<group>";
+		};
+		8B3B916C1EEA31A700CDAEFC /* EVNCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B916D1EEA31A700CDAEFC /* EVNCameraUITests.swift */,
+				8B3B916F1EEA31A700CDAEFC /* Info.plist */,
+			);
+			path = EVNCameraUITests;
+			sourceTree = "<group>";
+		};
+		8B3B917C1EEA355300CDAEFC /* EVNCameraController */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B917E1EEA358000CDAEFC /* EVNCameraController.h */,
+				8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */,
+				8B3B917D1EEA358000CDAEFC /* EVNCamera-Bridging-Header.h */,
+			);
+			path = EVNCameraController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B3B91491EEA31A700CDAEFC /* EVNCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3B91721EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCamera" */;
+			buildPhases = (
+				8B3B91461EEA31A700CDAEFC /* Sources */,
+				8B3B91471EEA31A700CDAEFC /* Frameworks */,
+				8B3B91481EEA31A700CDAEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVNCamera;
+			productName = EVNCamera;
+			productReference = 8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B3B915D1EEA31A700CDAEFC /* EVNCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3B91751EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraTests" */;
+			buildPhases = (
+				8B3B915A1EEA31A700CDAEFC /* Sources */,
+				8B3B915B1EEA31A700CDAEFC /* Frameworks */,
+				8B3B915C1EEA31A700CDAEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3B91601EEA31A700CDAEFC /* PBXTargetDependency */,
+			);
+			name = EVNCameraTests;
+			productName = EVNCameraTests;
+			productReference = 8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B3B91681EEA31A700CDAEFC /* EVNCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3B91781EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraUITests" */;
+			buildPhases = (
+				8B3B91651EEA31A700CDAEFC /* Sources */,
+				8B3B91661EEA31A700CDAEFC /* Frameworks */,
+				8B3B91671EEA31A700CDAEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3B916B1EEA31A700CDAEFC /* PBXTargetDependency */,
+			);
+			name = EVNCameraUITests;
+			productName = EVNCameraUITests;
+			productReference = 8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B3B91421EEA31A700CDAEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "仁伯安";
+				TargetAttributes = {
+					8B3B91491EEA31A700CDAEFC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2H6767RL8U;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					8B3B915D1EEA31A700CDAEFC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2H6767RL8U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B3B91491EEA31A700CDAEFC;
+					};
+					8B3B91681EEA31A700CDAEFC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2H6767RL8U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B3B91491EEA31A700CDAEFC;
+					};
+				};
+			};
+			buildConfigurationList = 8B3B91451EEA31A700CDAEFC /* Build configuration list for PBXProject "EVNCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B3B91411EEA31A700CDAEFC;
+			productRefGroup = 8B3B914B1EEA31A700CDAEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B3B91491EEA31A700CDAEFC /* EVNCamera */,
+				8B3B915D1EEA31A700CDAEFC /* EVNCameraTests */,
+				8B3B91681EEA31A700CDAEFC /* EVNCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B3B91481EEA31A700CDAEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3B91581EEA31A700CDAEFC /* LaunchScreen.storyboard in Resources */,
+				8B3B91551EEA31A700CDAEFC /* Assets.xcassets in Resources */,
+				8B3B91531EEA31A700CDAEFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B915C1EEA31A700CDAEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B91671EEA31A700CDAEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B3B91461EEA31A700CDAEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3B91501EEA31A700CDAEFC /* ViewController.swift in Sources */,
+				8B3B91801EEA358000CDAEFC /* EVNCameraController.m in Sources */,
+				8B3B914E1EEA31A700CDAEFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B915A1EEA31A700CDAEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3B91631EEA31A700CDAEFC /* EVNCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3B91651EEA31A700CDAEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3B916E1EEA31A700CDAEFC /* EVNCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3B91601EEA31A700CDAEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3B91491EEA31A700CDAEFC /* EVNCamera */;
+			targetProxy = 8B3B915F1EEA31A700CDAEFC /* PBXContainerItemProxy */;
+		};
+		8B3B916B1EEA31A700CDAEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3B91491EEA31A700CDAEFC /* EVNCamera */;
+			targetProxy = 8B3B916A1EEA31A700CDAEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B3B91511EEA31A700CDAEFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3B91521EEA31A700CDAEFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B3B91561EEA31A700CDAEFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3B91571EEA31A700CDAEFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B3B91701EEA31A700CDAEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B3B91711EEA31A700CDAEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B3B91731EEA31A700CDAEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EVNCameraController/EVNCamera-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B3B91741EEA31A700CDAEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EVNCameraController/EVNCamera-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B3B91761EEA31A700CDAEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVNCamera.app/EVNCamera";
+			};
+			name = Debug;
+		};
+		8B3B91771EEA31A700CDAEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVNCamera.app/EVNCamera";
+			};
+			name = Release;
+		};
+		8B3B91791EEA31A700CDAEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EVNCamera;
+			};
+			name = Debug;
+		};
+		8B3B917A1EEA31A700CDAEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2H6767RL8U;
+				INFOPLIST_FILE = EVNCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EVNCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B3B91451EEA31A700CDAEFC /* Build configuration list for PBXProject "EVNCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3B91701EEA31A700CDAEFC /* Debug */,
+				8B3B91711EEA31A700CDAEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3B91721EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3B91731EEA31A700CDAEFC /* Debug */,
+				8B3B91741EEA31A700CDAEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3B91751EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3B91761EEA31A700CDAEFC /* Debug */,
+				8B3B91771EEA31A700CDAEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3B91781EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3B91791EEA31A700CDAEFC /* Debug */,
+				8B3B917A1EEA31A700CDAEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B3B91421EEA31A700CDAEFC /* Project object */;
+}
