@@ -126,7 +126,7 @@
 }
 
 /**
- * // MARK: 是否开启相机权限
+ * MARK: 是否开启相机权限
  @return 返回canUseCamera
  */
 - (BOOL)isCanUseCamera
@@ -140,7 +140,7 @@
 
 
 /**
- * // MARK: 初始化相机所需视图
+ * MARK: 初始化相机所需视图
  */
 - (void)customCameraView
 {
@@ -262,14 +262,15 @@
 
 
 /**
- * // MARK: 开启关闭闪光灯
+ * MARK: 开启关闭闪光灯
  @param sender 闪光灯Button
  */
 - (void)flashOn:(UIButton *)sender
 {
     if ([_device lockForConfiguration:nil])
     {
-        if (isflashOn) {
+        if (isflashOn)
+        {
             if ([_device isFlashModeSupported:AVCaptureFlashModeOff])
             {
                 sender.selected = NO;
@@ -334,7 +335,6 @@
             {
                 [self.session addInput:newInput];
                 self.input = newInput;
-
             }
             else
             {
@@ -353,7 +353,7 @@
 
 
 /**
- * // MARK: 摄像头切换操作
+ * MARK: 摄像头切换操作
  @param position 摄像头位置，前置:AVCaptureDevicePositionFront 后置:AVCaptureDevicePositionBack
  @return AVCaptureDevice
  */
@@ -371,7 +371,7 @@
 }
 
 /**
- * // MARK: 对焦手势，获取对焦坐标
+ * MARK: 对焦手势，获取对焦坐标
  @param gesture tap手势
  */
 - (void)focusGesture:(UITapGestureRecognizer*)gesture
@@ -382,7 +382,7 @@
 
 
 /**
- * // MARK: 对焦
+ * MARK: 对焦
  @param point 对焦的坐标点
  */
 - (void)focusAtPoint:(CGPoint)point
@@ -421,7 +421,7 @@
 }
 
 /**
- * // MARK: 截取图片
+ * MARK: 截取图片
  */
 - (void)shutterCamera:(UIButton *)sender
 {
@@ -456,7 +456,7 @@
 }
 
 /**
- * // MARK: 重新拍摄
+ * MARK: 重新拍摄
  @param sender 重新拍摄按钮
  */
 - (void)againTakePictureBtn:(UIButton *)sender
@@ -475,7 +475,7 @@
 }
 
 /**
- * // MARK: 重新拍摄
+ * MARK: 重新拍摄
  @param sender sender
  */
 - (void)usePictureBtn:(UIButton *)sender
@@ -487,7 +487,7 @@
 }
 
 /**
- * // MARK: 指定回调方法
+ * MARK: 指定回调方法
  @param cameraImage image
  @param error error
  @param contextInfo contextInfo
@@ -512,7 +512,7 @@
 }
 
 /**
- * // MARK: 取消拍摄
+ * MARK: 取消拍摄
  */
 - (void)cancleButtonAction
 {
@@ -521,7 +521,7 @@
 }
 
 /**
- * // MARK: 检查相机权限
+ * MARK: 检查相机权限
  @return 是否检查相机权限
  */
 - (BOOL)validateCanUseCamera
