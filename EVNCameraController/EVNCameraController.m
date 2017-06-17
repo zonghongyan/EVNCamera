@@ -211,6 +211,10 @@
 }
 
 
+- (AVCaptureSession *)extracted {
+    return self.session;
+}
+
 /**
  * 自定义相机
  */
@@ -231,7 +235,7 @@
     }
     if ([self.session canAddInput:self.input])
     {
-        [self.session addInput:self.input];
+        [[self extracted] addInput:self.input];
     }
 
     if ([self.session canAddOutput:self.imageOutPut])
