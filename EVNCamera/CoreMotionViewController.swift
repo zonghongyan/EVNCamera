@@ -23,7 +23,7 @@ class CoreMotionViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white;
 
-//        self.useAccelerometerPush()
+        self.useAccelerometerPull()
         UIDevice.current.beginGeneratingDeviceOrientationNotifications() // 感知设备方向-开启监听设备方向
 
         NotificationCenter.default.addObserver(self, selector: #selector(CoreMotionViewController.receivedRotation), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil) // 添加通知，监听设备方向改变
@@ -35,11 +35,12 @@ class CoreMotionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
     /// 判断设备方向代理方法
     func receivedRotation()
     {
         let device = UIDevice.current
+
+        self.cameraMotionManager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
 
         if device.orientation == UIDeviceOrientation.unknown
         {
@@ -69,6 +70,7 @@ class CoreMotionViewController: UIViewController {
         {
             print("FaceDown")
         }
+        self.updateAccelerometerData(accelerometerData: self.cameraMotionManager.accelerometerData!)
     }
 
     // MARK: 摇一摇事件
@@ -85,32 +87,21 @@ class CoreMotionViewController: UIViewController {
         print("motionCancelled: 摇一摇被意外终止") // 摇一摇被意外终止
     }
 
-
-    /// 加速度计使用Pull方式获取 这种方式，是实时获取到Accelerometer的数据，并且用相应的队列来显示。即主动
+    /// 加速度计使用Pull方式获取 就是获取数据，如果要显示，就要向Accelerometer来索要数据。即：被动的方式
     func useAccelerometerPull()
     {
-        // 初始化全局管理对象
-        let manager = CMMotionManager.init()
-
+        let manager = CMMotionManager.init()   // 初始化全局管理对象
         self.cameraMotionManager = manager
 
         if manager.isAccelerometerAvailable    // 判断加速度计可不可用，判断加速度计是否开启
         {
-            if (manager.isAccelerometerActive) // 方法用来查看加速度器的状态：是否Active（启动）
-            {
-                manager.accelerometerUpdateInterval = 0.01 // 告诉manager，更新频率是100Hz
-                manager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
+            manager.accelerometerUpdateInterval = 0.01 // 告诉manager，更新频率是100Hz
+            manager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
+            let newestAccel = self.cameraMotionManager.accelerometerData // 获取并处理加速度计数据
 
-                let newestAccel = self.cameraMotionManager.accelerometerData // 获取并处理加速度计数据
-
-                print("X = \(String(describing: newestAccel?.acceleration.x))")
-                print("Y = \(String(describing: newestAccel?.acceleration.y))")
-                print("Z = \(String(describing: newestAccel?.acceleration.z))")
-            }
-            else
-            {
-                print("isAccelerometerActive is not active")
-            }
+            print("X = \(String(describing: newestAccel?.acceleration.x))")
+            print("Y = \(String(describing: newestAccel?.acceleration.y))")
+            print("Z = \(String(describing: newestAccel?.acceleration.z))")
         }
         else
         {
@@ -118,6 +109,17 @@ class CoreMotionViewController: UIViewController {
         }
     }
 
+
+    /// 更新加速器数据
+    ///
+    /// - Parameter accelerometerData: 加速数据
+    func updateAccelerometerData(accelerometerData: CMAccelerometerData) -> Void
+    {
+        print("X = \(String(describing: accelerometerData.acceleration.x))")
+        print("Y = \(String(describing: accelerometerData.acceleration.y))")
+        print("Z = \(String(describing: accelerometerData.acceleration.z))")
+    }
+    /// push 这种方式，是实时获取到Accelerometer的数据，并且用相应的队列来显示。即主动
     func useAccelerometerPush()
     {
         let manager = CMMotionManager.init() // 初始化全局管理对象
@@ -125,7 +127,7 @@ class CoreMotionViewController: UIViewController {
 
         if manager.isAccelerometerAvailable  // 判断加速度计可不可用，判断加速度计是否开启
         {
-            manager.accelerometerUpdateInterval = 0.01; // 告诉manager，更新频率是100Hz
+            manager.accelerometerUpdateInterval = 0.1; // 告诉manager，更新频率是100Hz 设置采样的频率，单位是秒
             let queue = OperationQueue.init()
             manager.startAccelerometerUpdates(to: queue, withHandler: { (accelerometerData, error) in // Push方式获取和处理数据
                 print("X = \(String(describing: accelerometerData?.acceleration.x))")
@@ -140,7 +142,7 @@ class CoreMotionViewController: UIViewController {
         }
     }
 
-    /// 陀螺仪 就是获取数据，如果要显示，就要向Accelerometer来索要数据。即：被动的方式
+    /// 陀螺仪
     func useGyroPush()
     {
         // 初始化全局管理对象

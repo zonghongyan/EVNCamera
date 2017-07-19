@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class ViewController: UIViewController, EVNCameraControllerDelegate
 {
 
@@ -18,14 +17,12 @@ class ViewController: UIViewController, EVNCameraControllerDelegate
 
     @IBOutlet weak var coreMotion: UIButton!
 
-
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
         self.navigationController?.navigationBar.isHidden = true;
-
     }
 
     override func didReceiveMemoryWarning() {
