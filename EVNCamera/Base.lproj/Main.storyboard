@@ -56,6 +56,36 @@
             </objects>
             <point key="canvasLocation" x="543" y="165"/>
         </scene>
+        <!--Core Motion View Controller-->
+        <scene sceneID="95Z-Og-NAM">
+            <objects>
+                <viewController storyboardIdentifier="coreMotionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FSB-mB-lzH" customClass="CoreMotionViewController" customModule="EVNCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="giA-Qh-MLv"/>
+                        <viewControllerLayoutGuide type="bottom" id="1UR-cw-Aj0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RMi-ML-PW2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPF-oj-4sK">
+                                <rect key="frame" x="20" y="28" width="335" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="motionContent" destination="yPF-oj-4sK" id="Q3X-Yv-nss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbW-3w-Tmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1349.5999999999999" y="163.26836581709148"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pdF-zn-Gqt">
             <objects>

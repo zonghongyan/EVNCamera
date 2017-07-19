@@ -12,6 +12,7 @@ import CoreMotion
 
 class CoreMotionViewController: UIViewController {
 
+    @IBOutlet weak var motionContent: UILabel!
     /**
      * 手机方向判断
      */
@@ -42,35 +43,49 @@ class CoreMotionViewController: UIViewController {
 
         self.cameraMotionManager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
 
+        var deviceOrientation:String = "";
+
         if device.orientation == UIDeviceOrientation.unknown
         {
+            deviceOrientation = "未知状态"
             print("Unknown")
         }
         else if device.orientation == UIDeviceOrientation.portrait
         {
             print("Portrait")
+            deviceOrientation = "手机竖直向上，摄像头在上"
         }
         else if device.orientation == UIDeviceOrientation.portraitUpsideDown
         {
             print("PortraitUpsideDown")
+            deviceOrientation = "手机竖直向上，摄像头在下"
         }
         else if device.orientation == UIDeviceOrientation.landscapeLeft
         {
             print("LandscapeLeft")
+            deviceOrientation = "摄像头在左"
         }
         else if device.orientation == UIDeviceOrientation.landscapeRight
         {
             print("LandscapeRight")
+            deviceOrientation = "摄像头在右"
         }
         else if device.orientation == UIDeviceOrientation.faceUp
         {
             print("FaceUp")
+            deviceOrientation = "放平面朝上"
         }
         else if device.orientation == UIDeviceOrientation.faceDown
         {
             print("FaceDown")
+            deviceOrientation = "放平面朝下"
         }
-        self.updateAccelerometerData(accelerometerData: self.cameraMotionManager.accelerometerData!)
+
+        if (self.cameraMotionManager.accelerometerData != nil)
+        {
+            self.updateAccelerometerDataAndDeviceOr(accelerometerDataString: self.cameraMotionManager.accelerometerData!, deviceOrientationString: deviceOrientation)
+        }
+
     }
 
     // MARK: 摇一摇事件
@@ -112,12 +127,21 @@ class CoreMotionViewController: UIViewController {
 
     /// 更新加速器数据
     ///
-    /// - Parameter accelerometerData: 加速数据
-    func updateAccelerometerData(accelerometerData: CMAccelerometerData) -> Void
+    /// - Parameter accelerometerDataString: 加速数据
+    /// - Parameter deviceOrientationString: 设备方向
+    func updateAccelerometerDataAndDeviceOr(accelerometerDataString: CMAccelerometerData, deviceOrientationString: String) -> Void
     {
-        print("X = \(String(describing: accelerometerData.acceleration.x))")
-        print("Y = \(String(describing: accelerometerData.acceleration.y))")
-        print("Z = \(String(describing: accelerometerData.acceleration.z))")
+        print("X = \(String(describing: accelerometerDataString.acceleration.x))")
+        print("Y = \(String(describing: accelerometerDataString.acceleration.y))")
+        print("Z = \(String(describing: accelerometerDataString.acceleration.z))")
+
+        DispatchQueue.global().async{
+            DispatchQueue.main.async{
+
+                let string: String = "pull加速器数据" + "\n" + String(describing: accelerometerDataString.acceleration.x) + "\n" + String(describing: accelerometerDataString.acceleration.y) + "\n" + String(describing: accelerometerDataString.acceleration.z) + "\n" + "设备的位置方向" + "\n" + deviceOrientationString
+                self.motionContent?.text = string;
+            }
+        }
     }
     /// push 这种方式，是实时获取到Accelerometer的数据，并且用相应的队列来显示。即主动
     func useAccelerometerPush()
@@ -177,5 +201,7 @@ class CoreMotionViewController: UIViewController {
     deinit
     {
         print("\(#function): \(object_getClassName(self))")
+
+        self.cameraMotionManager.stopAccelerometerUpdates()
     }
 }

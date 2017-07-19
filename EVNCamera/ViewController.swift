@@ -40,7 +40,8 @@ class ViewController: UIViewController, EVNCameraControllerDelegate
 
     @IBAction func coreMotionAction(_ sender: UIButton)
     {
-        let coreMotionViewController:CoreMotionViewController = CoreMotionViewController.init()
+        let mainStoryB = UIStoryboard.init(name: "Main", bundle: nil)
+        let coreMotionViewController:CoreMotionViewController = mainStoryB.instantiateViewController(withIdentifier: "coreMotionViewController") as! CoreMotionViewController
         self.navigationController?.pushViewController(coreMotionViewController, animated: true)
     }
 
