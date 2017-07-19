@@ -202,5 +202,6 @@ class CoreMotionViewController: UIViewController {
         print("\(#function): \(object_getClassName(self))")
 
         self.cameraMotionManager.stopAccelerometerUpdates()
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil) // 移除监听设备方向的通知
     }
 }
