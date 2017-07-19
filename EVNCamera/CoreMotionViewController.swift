@@ -13,9 +13,8 @@ import CoreMotion
 class CoreMotionViewController: UIViewController {
 
     @IBOutlet weak var motionContent: UILabel!
-    /**
-     * 手机方向判断
-     */
+
+    /// 手机方向判断
     var cameraMotionManager:CMMotionManager = CMMotionManager();
 
     override func viewDidLoad()
@@ -23,7 +22,7 @@ class CoreMotionViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.white;
-
+        self.motionContent?.text = "您试着转转手机\nO(∩_∩)O~"
         self.useAccelerometerPull()
         UIDevice.current.beginGeneratingDeviceOrientationNotifications() // 感知设备方向-开启监听设备方向
 
@@ -124,11 +123,11 @@ class CoreMotionViewController: UIViewController {
         }
     }
 
-
     /// 更新加速器数据
     ///
-    /// - Parameter accelerometerDataString: 加速数据
-    /// - Parameter deviceOrientationString: 设备方向
+    /// - Parameters:
+    ///   - accelerometerDataString: 加速数据
+    ///   - deviceOrientationString: 设备方向
     func updateAccelerometerDataAndDeviceOr(accelerometerDataString: CMAccelerometerData, deviceOrientationString: String) -> Void
     {
         print("X = \(String(describing: accelerometerDataString.acceleration.x))")
@@ -137,12 +136,12 @@ class CoreMotionViewController: UIViewController {
 
         DispatchQueue.global().async{
             DispatchQueue.main.async{
-
-                let string: String = "pull加速器数据" + "\n" + String(describing: accelerometerDataString.acceleration.x) + "\n" + String(describing: accelerometerDataString.acceleration.y) + "\n" + String(describing: accelerometerDataString.acceleration.z) + "\n" + "设备的位置方向" + "\n" + deviceOrientationString
+                let string: String = "pull加速器数据" + "\n" + "X: " + String(describing: accelerometerDataString.acceleration.x) + "\n"  + "Y: " + String(describing: accelerometerDataString.acceleration.y) + "\n"  + "Z: " + String(describing: accelerometerDataString.acceleration.z) + "\n \n" + "设备的位置方向:" + "\n" + deviceOrientationString
                 self.motionContent?.text = string;
             }
         }
     }
+
     /// push 这种方式，是实时获取到Accelerometer的数据，并且用相应的队列来显示。即主动
     func useAccelerometerPush()
     {
