@@ -22,6 +22,8 @@
 		8B3B918D1EEA46E100CDAEFC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B918B1EEA46E100CDAEFC /* LICENSE */; };
 		8B3B918E1EEA46E100CDAEFC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B918C1EEA46E100CDAEFC /* README.md */; };
 		8B3B91901EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */; };
+		8BB3CA581F1EF1F00009560E /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3CA571F1EF1F00009560E /* CoreMotionViewController.swift */; };
+		8BD625F81F1DB48500C1A3F4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD625F71F1DB48500C1A3F4 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		8B3B918B1EEA46E100CDAEFC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B3B918C1EEA46E100CDAEFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.54.34.png"; sourceTree = "<group>"; };
+		8BB3CA571F1EF1F00009560E /* CoreMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
+		8BD625F71F1DB48500C1A3F4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD625F81F1DB48500C1A3F4 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +108,7 @@
 				8B3B91611EEA31A700CDAEFC /* EVNCameraTests */,
 				8B3B916C1EEA31A700CDAEFC /* EVNCameraUITests */,
 				8B3B914B1EEA31A700CDAEFC /* Products */,
+				8BD625F61F1DB48500C1A3F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 				8B3B91831EEA3A8F00CDAEFC /* EVNCamera-Bridging-Header.h */,
 				8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */,
 				8B3B914F1EEA31A700CDAEFC /* ViewController.swift */,
+				8BB3CA571F1EF1F00009560E /* CoreMotionViewController.swift */,
 				8B3B91511EEA31A700CDAEFC /* Main.storyboard */,
 				8B3B91541EEA31A700CDAEFC /* Assets.xcassets */,
 				8B3B91561EEA31A700CDAEFC /* LaunchScreen.storyboard */,
@@ -167,6 +174,14 @@
 				8B3B91871EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png */,
 			);
 			path = ShotImages;
+			sourceTree = "<group>";
+		};
+		8BD625F61F1DB48500C1A3F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD625F71F1DB48500C1A3F4 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +331,7 @@
 				8B3B91501EEA31A700CDAEFC /* ViewController.swift in Sources */,
 				8B3B91801EEA358000CDAEFC /* EVNCameraController.m in Sources */,
 				8B3B918E1EEA46E100CDAEFC /* README.md in Sources */,
+				8BB3CA581F1EF1F00009560E /* CoreMotionViewController.swift in Sources */,
 				8B3B914E1EEA31A700CDAEFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

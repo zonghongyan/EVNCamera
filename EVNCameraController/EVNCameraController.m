@@ -8,6 +8,7 @@
 
 #import "EVNCameraController.h"
 #import <AVFoundation/AVFoundation.h>
+//#import <CoreMotion/CoreMotion.h>
 
 #define kEVNScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kEVNScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -92,6 +93,9 @@
  */
 @property (nonatomic, strong) UIButton *usePictureBtn;
 
+
+
+
 @end
 
 @implementation EVNCameraController
@@ -110,6 +114,11 @@
     {
         return;
     }
+}
+
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    NSLog(@"%ld", (long)toInterfaceOrientation);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -557,9 +566,32 @@
     }
 }
 
+// 开始晃动的时候触发
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"开始晃动");
+}
+
+// 结束晃动的时候触发
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"晃动结束");
+}
+
+// 中断晃动的时候触发
+- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"取消晃动,晃动终止");
+}
+
 - (void)dealloc
 {
     NSLog(@"%@, %s", NSStringFromClass([self class]), __func__);
 }
+
+
+
+
+
 
 @end
