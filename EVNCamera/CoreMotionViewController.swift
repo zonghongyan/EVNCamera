@@ -17,6 +17,17 @@ class CoreMotionViewController: UIViewController {
     /// 手机方向判断
     var cameraMotionManager:CMMotionManager = CMMotionManager();
 
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.cameraMotionManager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
+    }
+
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        self.cameraMotionManager.stopAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
+    }
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
