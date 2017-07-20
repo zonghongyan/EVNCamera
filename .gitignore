@@ -23,3 +23,5 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 *.moved-aside
+
+.DS_Store
