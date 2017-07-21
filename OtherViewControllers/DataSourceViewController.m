@@ -22,8 +22,11 @@
     [super viewDidLoad];
 
     // 1. 指定DISPATCH_SOURCE_TYPE_DATA_ADD，做成Dispatch Source(分派源)。设定Main Dispatch Queue 为追加处理的Dispatch Queue
-    _processingQueueSource = dispatch_source_create(DISPATCH_SOURCE_TYPE_DATA_ADD, 0, 0,
-                                                    dispatch_get_main_queue());
+    _processingQueueSource = dispatch_source_create(DISPATCH_SOURCE_TYPE_DATA_ADD, 0, 0, dispatch_get_main_queue());
+
+    // 指定DISPATCH_SOURCE_TYPE_DATA_ADD，做成Dispatch Source(分派源)。设定 global Dispatch Queue 为追加处理的Dispatch Queue
+    //    _processingQueueSource = dispatch_source_create(DISPATCH_SOURCE_TYPE_DATA_ADD, 0, 0, dispatch_get_global_queue(0, 0));
+
     __block NSUInteger totalComplete = 0;
     dispatch_source_set_event_handler(_processingQueueSource, ^{
         //当处理事件被最终执行时，计算后的数据可以通过dispatch_source_get_data来获取。这个数据的值在每次响应事件执行后会被重置，所以totalComplete的值是最终累积的值。
@@ -37,13 +40,25 @@
 
     // 2. 恢复源后，就可以通过dispatch_source_merge_data向Dispatch Source(分派源)发送事件:
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_async(queue, ^{
-        for (NSUInteger index = 0; index < 100; index++) {
-            dispatch_source_merge_data(_processingQueueSource, 1);
-            NSLog(@"♻️线程号：%@", [NSThread currentThread]);
-            usleep(20000);//0.02秒
-        }
-    });
+    //    dispatch_async(queue, ^{
+    //        for (NSUInteger index = 0; index < 100; index++) {
+    //            dispatch_source_merge_data(_processingQueueSource, 1);
+    //            NSLog(@"♻️线程号：%@", [NSThread currentThread]);
+    //            usleep(20000);//0.02秒
+    //        }
+    //    });
+
+
+    for (NSUInteger index = 0; index < 100; index++) {
+        dispatch_async(queue, ^{
+            for (NSUInteger index = 0; index < 100; index++) {
+                dispatch_source_merge_data(_processingQueueSource, 1);
+                NSLog(@"♻️线程号：%@", [NSThread currentThread]);
+                usleep(20000);//0.02秒
+            }
+        });
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
