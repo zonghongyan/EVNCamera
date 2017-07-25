@@ -9,7 +9,9 @@
 #import "MyLayerViewController.h"
 
 @interface MyLayerViewController ()
-
+{
+    CGFloat currentWidth;
+}
 @end
 
 @implementation MyLayerViewController
@@ -18,6 +20,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    currentWidth = 50;
     [self drawMyLayer];
 }
 
@@ -37,10 +40,10 @@
     // 设置中心点
     layer.position = CGPointMake(size.width/2, size.height/2.f);
     // 设置大小
-    layer.bounds = CGRectMake(0, 0, 100, 100);
+    layer.bounds = CGRectMake(0, 0, currentWidth, currentWidth);
 
     // 设置半角
-    layer.cornerRadius = 100/2;
+    layer.cornerRadius = currentWidth/2;
     // 设置阴影
     layer.shadowColor = [UIColor grayColor].CGColor;
     layer.shadowOffset = CGSizeMake(2, 2);
@@ -56,13 +59,13 @@
     UITouch *touch = [touches anyObject];
     CALayer *layer = self.view.layer.sublayers[0];
     CGFloat width = layer.bounds.size.width;
-    if (width == 100)
+    if (width == currentWidth)
     {
-        width = 100*4;
+        width = currentWidth*4;
     }
     else
     {
-        width = 100;
+        width = currentWidth;
     }
     layer.bounds = CGRectMake(0, 0, width, width);
     layer.position = [touch locationInView:self.view];
