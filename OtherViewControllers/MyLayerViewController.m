@@ -57,7 +57,7 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
-    CALayer *layer = self.view.layer.sublayers[0];
+    CALayer *layer = [self.view.layer.sublayers lastObject];
     CGFloat width = layer.bounds.size.width;
     if (width == currentWidth)
     {
@@ -69,6 +69,7 @@
     }
     layer.bounds = CGRectMake(0, 0, width, width);
     layer.position = [touch locationInView:self.view];
+    NSLog(@"x=%lf, y=%lf", layer.position.x, layer.position.y);
     layer.cornerRadius = width/2;
 }
 
