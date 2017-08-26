@@ -13,7 +13,7 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build EVNCamera 4.0.0+.
+> CocoaPods 1.1.0+ is required to build EVNCamera.
 
 To integrate EVNCamera into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -32,7 +32,17 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
-
+## use
+```
+let cameraController:EVNCameraController = EVNCameraController.init()
+cameraController.cameraControllerDelegate = self;
+self.present(cameraController, animated: true, completion: nil)
+        
+func cameraDidFinishShoot(withCameraImage cameraImage: UIImage!)
+{
+   self.previewImageView.image = cameraImage
+}
+```
 ### 预览图
 
 <img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.54.34.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" >
