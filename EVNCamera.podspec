@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EVNCamera", "EVNCamera/*.{h,m}"
-  s.exclude_files = "EVNCamera"
+  s.source_files  = "EVNCamera", "EVNCamera/*.{h,m,bundle}"
+  # s.exclude_files = "EVNCamera"
   s.requires_arc = true
   # s.public_header_files = "Classes/**/*.h"
 
