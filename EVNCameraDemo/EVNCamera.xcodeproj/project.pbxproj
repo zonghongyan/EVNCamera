@@ -65,7 +65,7 @@
 		8B3B91851EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.55.46.png"; sourceTree = "<group>"; };
 		8B3B91861EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.58.06.png"; sourceTree = "<group>"; };
 		8B3B91871EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.58.31.png"; sourceTree = "<group>"; };
-		8B3B918B1EEA46E100CDAEFC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B3B918B1EEA46E100CDAEFC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B3B918C1EEA46E100CDAEFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.54.34.png"; sourceTree = "<group>"; };
 		8B6396711F2728BF00E0D5A7 /* MyLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerViewController.h; sourceTree = "<group>"; };
