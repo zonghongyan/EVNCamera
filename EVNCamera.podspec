@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                EVNCamera: 自定义相机，custom camera
                    DESC
 
   s.homepage     = "https://github.com/zonghongyan/EVNCamera/blob/master/README.md"
