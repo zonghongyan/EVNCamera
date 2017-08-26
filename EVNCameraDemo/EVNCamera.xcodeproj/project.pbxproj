@@ -166,7 +166,8 @@
 				8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */,
 				8B3B91811EEA38C500CDAEFC /* EVNCamera.bundle */,
 			);
-			path = EVNCameraController;
+			name = EVNCameraController;
+			path = ../EVNCamera;
 			sourceTree = "<group>";
 		};
 		8B3B91841EEA46C500CDAEFC /* ShotImages */ = {
