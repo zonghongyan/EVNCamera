@@ -5,4 +5,4 @@
 
 ### 预览图
 
-<img src="/ShotImages/Screen Shot 2017-06-09 at 10.54.34.png" width="20%" height="20%" alt="Show the figure" ><img src="/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" >
+<img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.54.34.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" >
