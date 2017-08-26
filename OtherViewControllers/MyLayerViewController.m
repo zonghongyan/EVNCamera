@@ -53,10 +53,20 @@
 
 }
 
-    // 点击放大
-- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+// 拖曳时触发
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    UITouch *touch = [touches anyObject];
+    UITouch *touch = [touches anyObject]; // 存放touch 事件状态
+    CALayer *layer = [self.view.layer.sublayers lastObject];
+    CGFloat width = layer.bounds.size.width;
+    layer.bounds = CGRectMake(0, 0, width, width);
+    layer.position = [touch locationInView:self.view];
+}
+
+// 手指离开时触发
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+{
+    UITouch *touch = [touches anyObject]; // 存放touch 事件状态
     CALayer *layer = [self.view.layer.sublayers lastObject];
     CGFloat width = layer.bounds.size.width;
     if (width == currentWidth)
