@@ -23,7 +23,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'EVNCamera', '~> 0.0.2'
+    pod 'EVNCamera', '~> 0.0.3'
 end
 ```
 
