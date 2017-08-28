@@ -53,7 +53,7 @@ func cameraDidFinishShoot(withCameraImage cameraImage: UIImage!)
 
 #### Use in Objective-C
 ```
-#import "EVNCameraController.h"
+@import EVNCamera; // Or #import "EVNCameraController.h"
 
 @interface ViewController ()<EVNCameraControllerDelegate>
 ......
