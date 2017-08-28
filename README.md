@@ -23,7 +23,9 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'EVNCamera', '~> 0.0.3'
+
+pod 'EVNCamera', '~> 0.0.3'
+
 end
 ```
 
@@ -32,8 +34,13 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
-## use
+
+## Use
+#### Use in swift
 ```
+class ViewController: UIViewController, EVNCameraControllerDelegate // To follow the protocol EVNCameraControllerDelegate
+......
+
 let cameraController:EVNCameraController = EVNCameraController.init()
 cameraController.cameraControllerDelegate = self;
 self.present(cameraController, animated: true, completion: nil)
@@ -43,6 +50,25 @@ func cameraDidFinishShoot(withCameraImage cameraImage: UIImage!)
    self.previewImageView.image = cameraImage
 }
 ```
+
+#### Use in Objective-C
+```
+#import "EVNCameraController.h"
+
+@interface ViewController ()<EVNCameraControllerDelegate>
+......
+
+EVNCameraController *cameraController = [[EVNCameraController alloc] init];
+cameraController.cameraControllerDelegate = self;
+[self presentViewController:cameraController animated:YES completion:nil];
+    
+#pragma mark: EVNCameraControllerDelegate method
+- (void)cameraDidFinishShootWithCameraImage:(UIImage *)cameraImage
+{
+    [self.previewImageView setImage:cameraImage];
+}
+```
+
 ### 预览图
 
 <img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.54.34.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" ><img src="/EVNCameraDemo/ShotImages/Screen Shot 2017-06-09 at 10.55.46.png" width="20%" height="20%" alt="Show the figure" >
