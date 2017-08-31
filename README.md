@@ -1,6 +1,7 @@
 ## EVNCamera
 
 [![Build Status](https://travis-ci.org/zonghongyan/EVNCamera.svg?branch=master)](https://travis-ci.org/zonghongyan/EVNTouchIDDemo)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EVNCamera.svg)](https://img.shields.io/cocoapods/v/EVNCamera.svg)
 [![License](https://img.shields.io/github/license/zonghongyan/EVNCamera.svg?style=flat)](https://github.com/zonghongyan/EVNCamera/blob/master/LICENSE)
 
 ## Installation
