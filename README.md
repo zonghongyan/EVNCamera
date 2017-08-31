@@ -21,7 +21,7 @@ To integrate EVNCamera into your Xcode project using CocoaPods, specify it in yo
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
-use_frameworks!
+#use_frameworks!
 
 target '<Your Target Name>' do
 
