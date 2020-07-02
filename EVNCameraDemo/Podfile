@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+source '[https://github.com/CocoaPods/Specs.git](https://github.com/CocoaPods/Specs.git)' #官方Specs repo
+# platform :ios, '9.0'
+
+target 'EVNCamera' do
+  # Comment the next line if you don't want to use dynamic frameworks
+#  use_frameworks!
+  inhibit_all_warnings!
+  pod 'EVNCamera', :path => './SubPods/'
+
+  # Pods for EVNCamera
+end

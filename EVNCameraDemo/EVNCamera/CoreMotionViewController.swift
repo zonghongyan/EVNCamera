@@ -17,7 +17,6 @@ class CoreMotionViewController: UIViewController {
     /// 手机方向判断
     var cameraMotionManager:CMMotionManager = CMMotionManager();
 
-
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.cameraMotionManager.startAccelerometerUpdates()        // 开始更新，后台线程开始运行。这是Pull方式。
@@ -36,8 +35,9 @@ class CoreMotionViewController: UIViewController {
         self.motionContent?.text = "您试着转转手机\nO(∩_∩)O~"
         self.useAccelerometerPull()
         UIDevice.current.beginGeneratingDeviceOrientationNotifications() // 感知设备方向-开启监听设备方向
-
-        NotificationCenter.default.addObserver(self, selector: #selector(CoreMotionViewController.receivedRotation), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil) // 添加通知，监听设备方向改变
+        
+//        NotificationCenter.default.addObserver(self, selector: #selector(CoreMotionViewController.receivedRotation), name: NSNotification.Name.UIDevice.orientationDidChangeNotification, object: nil) // 添加通知，监听设备方向改变
+        NotificationCenter.default.addObserver(self, selector: #selector(CoreMotionViewController.receivedRotation), name:UIDevice.orientationDidChangeNotification , object: nil);
         UIDevice.current.endGeneratingDeviceOrientationNotifications() // 关闭监听设备方向
     }
 
@@ -47,7 +47,7 @@ class CoreMotionViewController: UIViewController {
     }
 
     /// 判断设备方向代理方法
-    func receivedRotation()
+    @objc func receivedRotation()
     {
         let device = UIDevice.current
 
@@ -99,15 +99,15 @@ class CoreMotionViewController: UIViewController {
     }
 
     // MARK: 摇一摇事件
-    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?)
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?)
     {
         print("motionBegan: 摇一摇")     // 摇一摇
     }
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?)
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?)
     {
         print("motionEnded: 摇一摇结束")     // 摇一摇结束
     }
-    override func motionCancelled(_ motion: UIEventSubtype, with event: UIEvent?)
+    override func motionCancelled(_ motion: UIEvent.EventSubtype, with event: UIEvent?)
     {
         print("motionCancelled: 摇一摇被意外终止") // 摇一摇被意外终止
     }
@@ -213,6 +213,6 @@ class CoreMotionViewController: UIViewController {
         print("\(#function): \(object_getClassName(self))")
 
         self.cameraMotionManager.stopAccelerometerUpdates()
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil) // 移除监听设备方向的通知
+        NotificationCenter.default.removeObserver(self, name:UIDevice.orientationDidChangeNotification, object: nil) // 移除监听设备方向的通知
     }
 }

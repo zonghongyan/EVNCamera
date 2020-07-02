@@ -3,71 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849F7A5124AD8B85009883D7 /* EVNCamera.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 849F7A4824AD8B85009883D7 /* EVNCamera.podspec */; };
 		8B3B914E1EEA31A700CDAEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */; };
 		8B3B91501EEA31A700CDAEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B914F1EEA31A700CDAEFC /* ViewController.swift */; };
 		8B3B91531EEA31A700CDAEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91511EEA31A700CDAEFC /* Main.storyboard */; };
 		8B3B91551EEA31A700CDAEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91541EEA31A700CDAEFC /* Assets.xcassets */; };
 		8B3B91581EEA31A700CDAEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91561EEA31A700CDAEFC /* LaunchScreen.storyboard */; };
-		8B3B91631EEA31A700CDAEFC /* EVNCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B91621EEA31A700CDAEFC /* EVNCameraTests.swift */; };
-		8B3B916E1EEA31A700CDAEFC /* EVNCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B916D1EEA31A700CDAEFC /* EVNCameraUITests.swift */; };
-		8B3B91801EEA358000CDAEFC /* EVNCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */; };
-		8B3B91821EEA38C500CDAEFC /* EVNCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91811EEA38C500CDAEFC /* EVNCamera.bundle */; };
-		8B3B91881EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91851EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png */; };
-		8B3B91891EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91861EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png */; };
-		8B3B918A1EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B91871EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png */; };
 		8B3B918D1EEA46E100CDAEFC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B918B1EEA46E100CDAEFC /* LICENSE */; };
 		8B3B918E1EEA46E100CDAEFC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B918C1EEA46E100CDAEFC /* README.md */; };
-		8B3B91901EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */; };
 		8B6396731F2728BF00E0D5A7 /* MyLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6396721F2728BF00E0D5A7 /* MyLayerViewController.m */; };
 		8BB3CA581F1EF1F00009560E /* CoreMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3CA571F1EF1F00009560E /* CoreMotionViewController.swift */; };
 		8BD625F81F1DB48500C1A3F4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD625F71F1DB48500C1A3F4 /* CoreMotion.framework */; };
+		F6C1B6778F3A47F7BDEB093E /* libPods-EVNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 607CCDC4FF9B280F81AA901C /* libPods-EVNCamera.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8B3B915F1EEA31A700CDAEFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B3B91421EEA31A700CDAEFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B3B91491EEA31A700CDAEFC;
-			remoteInfo = EVNCamera;
-		};
-		8B3B916A1EEA31A700CDAEFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8B3B91421EEA31A700CDAEFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B3B91491EEA31A700CDAEFC;
-			remoteInfo = EVNCamera;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVNCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A62D5701C2B73BF45B6F7F /* Pods-EVNCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNCamera.debug.xcconfig"; path = "Target Support Files/Pods-EVNCamera/Pods-EVNCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		607CCDC4FF9B280F81AA901C /* libPods-EVNCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EVNCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688F62D0DA926A1C6AC90A14 /* Pods-EVNCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNCamera.release.xcconfig"; path = "Target Support Files/Pods-EVNCamera/Pods-EVNCamera.release.xcconfig"; sourceTree = "<group>"; };
+		849F7A4824AD8B85009883D7 /* EVNCamera.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EVNCamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B3B914A1EEA31A700CDAEFC /* 仁伯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仁伯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B914D1EEA31A700CDAEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B3B914F1EEA31A700CDAEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B3B91521EEA31A700CDAEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3B91541EEA31A700CDAEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3B91571EEA31A700CDAEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3B91591EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVNCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B91621EEA31A700CDAEFC /* EVNCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVNCameraTests.swift; sourceTree = "<group>"; };
 		8B3B91641EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVNCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B916D1EEA31A700CDAEFC /* EVNCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVNCameraUITests.swift; sourceTree = "<group>"; };
 		8B3B916F1EEA31A700CDAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B3B917E1EEA358000CDAEFC /* EVNCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVNCameraController.h; sourceTree = "<group>"; };
-		8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVNCameraController.m; sourceTree = "<group>"; };
-		8B3B91811EEA38C500CDAEFC /* EVNCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EVNCamera.bundle; sourceTree = "<group>"; };
 		8B3B91831EEA3A8F00CDAEFC /* EVNCamera-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EVNCamera-Bridging-Header.h"; sourceTree = "<group>"; };
-		8B3B91851EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.55.46.png"; sourceTree = "<group>"; };
-		8B3B91861EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.58.06.png"; sourceTree = "<group>"; };
-		8B3B91871EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.58.31.png"; sourceTree = "<group>"; };
 		8B3B918B1EEA46E100CDAEFC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B3B918C1EEA46E100CDAEFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-09 at 10.54.34.png"; sourceTree = "<group>"; };
 		8B6396711F2728BF00E0D5A7 /* MyLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerViewController.h; sourceTree = "<group>"; };
 		8B6396721F2728BF00E0D5A7 /* MyLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayerViewController.m; sourceTree = "<group>"; };
 		8BB3CA571F1EF1F00009560E /* CoreMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionViewController.swift; sourceTree = "<group>"; };
@@ -80,48 +52,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD625F81F1DB48500C1A3F4 /* CoreMotion.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B3B915B1EEA31A700CDAEFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B3B91661EEA31A700CDAEFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F6C1B6778F3A47F7BDEB093E /* libPods-EVNCamera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		849F7A3524AD8B85009883D7 /* SubPods */ = {
+			isa = PBXGroup;
+			children = (
+				849F7A4824AD8B85009883D7 /* EVNCamera.podspec */,
+			);
+			path = SubPods;
+			sourceTree = "<group>";
+		};
 		8B3B91411EEA31A700CDAEFC = {
 			isa = PBXGroup;
 			children = (
+				849F7A3524AD8B85009883D7 /* SubPods */,
 				8B3B918B1EEA46E100CDAEFC /* LICENSE */,
 				8B3B918C1EEA46E100CDAEFC /* README.md */,
 				8BB3CA591F2056130009560E /* OtherViewControllers */,
 				8B3B91841EEA46C500CDAEFC /* ShotImages */,
-				8B3B917C1EEA355300CDAEFC /* EVNCameraController */,
 				8B3B914C1EEA31A700CDAEFC /* EVNCamera */,
 				8B3B91611EEA31A700CDAEFC /* EVNCameraTests */,
 				8B3B916C1EEA31A700CDAEFC /* EVNCameraUITests */,
 				8B3B914B1EEA31A700CDAEFC /* Products */,
 				8BD625F61F1DB48500C1A3F4 /* Frameworks */,
+				927E315B59190FE3D5E11443 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		8B3B914B1EEA31A700CDAEFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */,
-				8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */,
-				8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */,
+				8B3B914A1EEA31A700CDAEFC /* 仁伯.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,24 +125,9 @@
 			path = EVNCameraUITests;
 			sourceTree = "<group>";
 		};
-		8B3B917C1EEA355300CDAEFC /* EVNCameraController */ = {
-			isa = PBXGroup;
-			children = (
-				8B3B917E1EEA358000CDAEFC /* EVNCameraController.h */,
-				8B3B917F1EEA358000CDAEFC /* EVNCameraController.m */,
-				8B3B91811EEA38C500CDAEFC /* EVNCamera.bundle */,
-			);
-			name = EVNCameraController;
-			path = ../EVNCamera;
-			sourceTree = "<group>";
-		};
 		8B3B91841EEA46C500CDAEFC /* ShotImages */ = {
 			isa = PBXGroup;
 			children = (
-				8B3B918F1EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png */,
-				8B3B91851EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png */,
-				8B3B91861EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png */,
-				8B3B91871EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png */,
 			);
 			path = ShotImages;
 			sourceTree = "<group>";
@@ -194,8 +145,18 @@
 			isa = PBXGroup;
 			children = (
 				8BD625F71F1DB48500C1A3F4 /* CoreMotion.framework */,
+				607CCDC4FF9B280F81AA901C /* libPods-EVNCamera.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927E315B59190FE3D5E11443 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A62D5701C2B73BF45B6F7F /* Pods-EVNCamera.debug.xcconfig */,
+				688F62D0DA926A1C6AC90A14 /* Pods-EVNCamera.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3B91721EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCamera" */;
 			buildPhases = (
+				FBFE0B791A32847DB4B33335 /* [CP] Check Pods Manifest.lock */,
 				8B3B91461EEA31A700CDAEFC /* Sources */,
 				8B3B91471EEA31A700CDAEFC /* Frameworks */,
 				8B3B91481EEA31A700CDAEFC /* Resources */,
+				1BE8903870D1966302399463 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,44 +178,8 @@
 			);
 			name = EVNCamera;
 			productName = EVNCamera;
-			productReference = 8B3B914A1EEA31A700CDAEFC /* EVNCamera.app */;
+			productReference = 8B3B914A1EEA31A700CDAEFC /* 仁伯.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8B3B915D1EEA31A700CDAEFC /* EVNCameraTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B3B91751EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraTests" */;
-			buildPhases = (
-				8B3B915A1EEA31A700CDAEFC /* Sources */,
-				8B3B915B1EEA31A700CDAEFC /* Frameworks */,
-				8B3B915C1EEA31A700CDAEFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B3B91601EEA31A700CDAEFC /* PBXTargetDependency */,
-			);
-			name = EVNCameraTests;
-			productName = EVNCameraTests;
-			productReference = 8B3B915E1EEA31A700CDAEFC /* EVNCameraTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8B3B91681EEA31A700CDAEFC /* EVNCameraUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B3B91781EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraUITests" */;
-			buildPhases = (
-				8B3B91651EEA31A700CDAEFC /* Sources */,
-				8B3B91661EEA31A700CDAEFC /* Frameworks */,
-				8B3B91671EEA31A700CDAEFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8B3B916B1EEA31A700CDAEFC /* PBXTargetDependency */,
-			);
-			name = EVNCameraUITests;
-			productName = EVNCameraUITests;
-			productReference = 8B3B91691EEA31A700CDAEFC /* EVNCameraUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -262,33 +189,21 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "仁伯安";
+				ORGANIZATIONNAME = "仁伯";
 				TargetAttributes = {
 					8B3B91491EEA31A700CDAEFC = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2H6767RL8U;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
-					};
-					8B3B915D1EEA31A700CDAEFC = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2H6767RL8U;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8B3B91491EEA31A700CDAEFC;
-					};
-					8B3B91681EEA31A700CDAEFC = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2H6767RL8U;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8B3B91491EEA31A700CDAEFC;
 					};
 				};
 			};
 			buildConfigurationList = 8B3B91451EEA31A700CDAEFC /* Build configuration list for PBXProject "EVNCamera" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -298,8 +213,6 @@
 			projectRoot = "";
 			targets = (
 				8B3B91491EEA31A700CDAEFC /* EVNCamera */,
-				8B3B915D1EEA31A700CDAEFC /* EVNCameraTests */,
-				8B3B91681EEA31A700CDAEFC /* EVNCameraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,33 +222,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3B91901EEA48AB00CDAEFC /* Screen Shot 2017-06-09 at 10.54.34.png in Resources */,
-				8B3B91881EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.55.46.png in Resources */,
-				8B3B91891EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.06.png in Resources */,
 				8B3B918D1EEA46E100CDAEFC /* LICENSE in Resources */,
 				8B3B91581EEA31A700CDAEFC /* LaunchScreen.storyboard in Resources */,
+				849F7A5124AD8B85009883D7 /* EVNCamera.podspec in Resources */,
 				8B3B91551EEA31A700CDAEFC /* Assets.xcassets in Resources */,
-				8B3B918A1EEA46C500CDAEFC /* Screen Shot 2017-06-09 at 10.58.31.png in Resources */,
-				8B3B91821EEA38C500CDAEFC /* EVNCamera.bundle in Resources */,
 				8B3B91531EEA31A700CDAEFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B3B915C1EEA31A700CDAEFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B3B91671EEA31A700CDAEFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE8903870D1966302399463 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVNCamera/Pods-EVNCamera-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVNCamera/Pods-EVNCamera-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVNCamera/Pods-EVNCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFE0B791A32847DB4B33335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVNCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B3B91461EEA31A700CDAEFC /* Sources */ = {
@@ -343,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3B91501EEA31A700CDAEFC /* ViewController.swift in Sources */,
-				8B3B91801EEA358000CDAEFC /* EVNCameraController.m in Sources */,
 				8B3B918E1EEA46E100CDAEFC /* README.md in Sources */,
 				8BB3CA581F1EF1F00009560E /* CoreMotionViewController.swift in Sources */,
 				8B3B914E1EEA31A700CDAEFC /* AppDelegate.swift in Sources */,
@@ -351,36 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B3B915A1EEA31A700CDAEFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B3B91631EEA31A700CDAEFC /* EVNCameraTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B3B91651EEA31A700CDAEFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B3B916E1EEA31A700CDAEFC /* EVNCameraUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8B3B91601EEA31A700CDAEFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B3B91491EEA31A700CDAEFC /* EVNCamera */;
-			targetProxy = 8B3B915F1EEA31A700CDAEFC /* PBXContainerItemProxy */;
-		};
-		8B3B916B1EEA31A700CDAEFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8B3B91491EEA31A700CDAEFC /* EVNCamera */;
-			targetProxy = 8B3B916A1EEA31A700CDAEFC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8B3B91511EEA31A700CDAEFC /* Main.storyboard */ = {
@@ -490,99 +397,50 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		8B3B91731EEA31A700CDAEFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A62D5701C2B73BF45B6F7F /* Pods-EVNCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 2H6767RL8U;
+				DEVELOPMENT_TEAM = UX47YY36D4;
 				INFOPLIST_FILE = EVNCamera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCamera;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldwind.app.kankan;
+				PRODUCT_NAME = "仁伯";
 				SWIFT_OBJC_BRIDGING_HEADER = "EVNCamera/EVNCamera-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		8B3B91741EEA31A700CDAEFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688F62D0DA926A1C6AC90A14 /* Pods-EVNCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 2H6767RL8U;
+				DEVELOPMENT_TEAM = UX47YY36D4;
 				INFOPLIST_FILE = EVNCamera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCamera;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldwind.app.kankan;
+				PRODUCT_NAME = "仁伯";
 				SWIFT_OBJC_BRIDGING_HEADER = "EVNCamera/EVNCamera-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		8B3B91761EEA31A700CDAEFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2H6767RL8U;
-				INFOPLIST_FILE = EVNCameraTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVNCamera.app/EVNCamera";
-			};
-			name = Debug;
-		};
-		8B3B91771EEA31A700CDAEFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2H6767RL8U;
-				INFOPLIST_FILE = EVNCameraTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVNCamera.app/EVNCamera";
-			};
-			name = Release;
-		};
-		8B3B91791EEA31A700CDAEFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2H6767RL8U;
-				INFOPLIST_FILE = EVNCameraUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = EVNCamera;
-			};
-			name = Debug;
-		};
-		8B3B917A1EEA31A700CDAEFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2H6767RL8U;
-				INFOPLIST_FILE = EVNCameraUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = far.east.EVNCameraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = EVNCamera;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -603,24 +461,6 @@
 			buildConfigurations = (
 				8B3B91731EEA31A700CDAEFC /* Debug */,
 				8B3B91741EEA31A700CDAEFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B3B91751EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B3B91761EEA31A700CDAEFC /* Debug */,
-				8B3B91771EEA31A700CDAEFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B3B91781EEA31A700CDAEFC /* Build configuration list for PBXNativeTarget "EVNCameraUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B3B91791EEA31A700CDAEFC /* Debug */,
-				8B3B917A1EEA31A700CDAEFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

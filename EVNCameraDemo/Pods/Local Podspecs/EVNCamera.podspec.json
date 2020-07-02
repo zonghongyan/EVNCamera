@@ -1,0 +1,44 @@
+{
+  "name": "EVNCamera",
+  "version": "1.0.0",
+  "summary": "custom camera",
+  "description": "EVNCamera: 自定义相机，custom camera",
+  "homepage": "https://github.com/zonghongyan/EVNCamera/blob/master/README.md",
+  "license": "MIT",
+  "authors": {
+    "zonghongyan": "renboan@aliyun.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/zonghongyan/EVNCamera.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "EVNCamera/Classes/EVNCamera/*.{h,m}",
+  "requires_arc": true,
+  "resource_bundles": {
+    "EVNCamera": [
+      "EVNCamera/Resources/*.png"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+      "~>1.1"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Controllers",
+      "source_files": "EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}"
+    },
+    {
+      "name": "Utils",
+      "source_files": "EVNCamera/Classes/EVNCamera/Utils/*.{h,m}"
+    },
+    {
+      "name": "Views",
+      "source_files": "EVNCamera/Classes/EVNCamera/Views/*.{h,m}"
+    }
+  ]
+}

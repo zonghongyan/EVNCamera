@@ -33,7 +33,7 @@ class ViewController: UIViewController, EVNCameraControllerDelegate
     @IBAction func openCameraAction(_ sender: Any)
     {
         let cameraController:EVNCameraController = EVNCameraController.init()
-        cameraController.cameraControllerDelegate = self;
+        cameraController.delegate = self;
         self.present(cameraController, animated: true, completion: nil)
     }
 
@@ -45,9 +45,17 @@ class ViewController: UIViewController, EVNCameraControllerDelegate
         self.navigationController?.pushViewController(coreMotionViewController, animated: true)
     }
 
-    func cameraDidFinishShoot(withCameraImage cameraImage: UIImage!)
-    {
+    func cameraController(_ cameraController: EVNCameraController!, didFinishShootWithCameraImage cameraImage: UIImage!) {
+        
         self.previewImageView.image = cameraImage
+        cameraController.dismiss(animated: true) {
+            
+        };
+    }
+    
+    func cameraController(_ cameraController: EVNCameraController!, didFinishVideo videoURL: URL!) {
+        
+        print("\(videoURL.path)")
     }
 
     deinit
