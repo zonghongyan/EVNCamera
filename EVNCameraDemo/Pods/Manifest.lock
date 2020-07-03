@@ -1,14 +1,5 @@
 PODS:
   - EVNCamera (1.0.0):
-    - EVNCamera/Controllers (= 1.0.0)
-    - EVNCamera/Utils (= 1.0.0)
-    - EVNCamera/Views (= 1.0.0)
-    - Masonry (~> 1.1)
-  - EVNCamera/Controllers (1.0.0):
-    - Masonry (~> 1.1)
-  - EVNCamera/Utils (1.0.0):
-    - Masonry (~> 1.1)
-  - EVNCamera/Views (1.0.0):
     - Masonry (~> 1.1)
   - Masonry (1.1.0)
 
@@ -24,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "./SubPods/"
 
 SPEC CHECKSUMS:
-  EVNCamera: a9e4c3226057e2ab47f31aa06f6ab105e69fe61a
+  EVNCamera: 549bdb753b11253326668e8f14fc969f91a15616
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: d9150b9215a8b9aa0bd2205b7e988e4b0c015248

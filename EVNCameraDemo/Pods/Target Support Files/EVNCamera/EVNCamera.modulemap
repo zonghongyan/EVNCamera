@@ -1,6 +1,0 @@
-framework module EVNCamera {
-  umbrella header "EVNCamera-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00564B72B4BC0D7166C7FAF4B9A19E61 /* EVNCameraShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151905113A62304CA92A22D3373EEC77 /* EVNCameraShowImageView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		081959B8987DC8F9AEBB9188C3433C15 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D23E4CAEFB702981EC885A7FC4BC94 /* photo@2x.png */; };
+		06392DA16B71DEF0325D85736039CB00 /* EVNCameraPlayMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6BB2DC7A9BD85327B16DDA7625526 /* EVNCameraPlayMovieView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		081959B8987DC8F9AEBB9188C3433C15 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6223A54EBE91C007FC7E2A2D9272D62B /* photo@2x.png */; };
 		0E45C816211B9B11D05A00AF3C49EB27 /* Pods-EVNCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210290B8DFDD8D04220F0E532995D68C /* Pods-EVNCamera-dummy.m */; };
-		1D1A4B3B129DFF23D4A8DF80016CC235 /* camera_retake.png in Resources */ = {isa = PBXBuildFile; fileRef = EDED77E684F1675BCED66C52D943B5E0 /* camera_retake.png */; };
+		1959BEF6A508680A0EA7D134A1911B16 /* EVNCameraShowImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4536E9A1350CBEA2EDC55BD57D2D75F1 /* EVNCameraShowImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D1A4B3B129DFF23D4A8DF80016CC235 /* camera_retake.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3B168DBF65D8BF5525FAAD5F204466 /* camera_retake.png */; };
 		25D62327BE82AC432019C1129818F902 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2908E4735BA0B1A9400806F20C78BE2E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		280463D6C02F0289C79E2C919793C62E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E688AC4A19E399EB2F7BEE821BA97A4B /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		294339A11760ADC414040CFE09B8998D /* UIColor+EVNExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B5B7E49EA0F59CB6F29980CFAA2316 /* UIColor+EVNExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2CAB05CFC88B2F9EDA1316E759C31619 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 298B114B7EB3F9D6A44F1C72AC8AEDC0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		301362E20CC5DE32C99A187D86D4EF4C /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E28BE40A980ECFA0C5E71CDF7403F7BC /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		309DF918D251C309AD58EC2ECB91E291 /* NSString+EVNExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF87D3CE53F518D3199603E50804EF /* NSString+EVNExt.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		40B5A8AB7F730156EFB8AF2A5CB736F4 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40671FF5AAEBABBB84CFC1491F84928F /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41CF0338AA26737A5C2207402AA7E2F5 /* EVNCameraUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D4C469149691DAD1465B67308B733B /* EVNCameraUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		461DB9E4668E9A50E3A47F987B91429B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 460F3F6D12B163631424C83D43FB2C71 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4A3C8236901DA98E1708B7705A517638 /* EVNCameraWarnView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE78A97C9E3959AC2686D568FA53A8B6 /* EVNCameraWarnView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B85AD27DAB2F02291B8633E0C4C1195 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 191B7E1B4F214FE9F3134387162EA957 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CABA36CE76CC9B980B88A03C44AC67E /* camera_cancle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CDFDDF1920D2B586CFA2561185C8C07 /* camera_cancle.png */; };
+		4CABA36CE76CC9B980B88A03C44AC67E /* camera_cancle.png in Resources */ = {isa = PBXBuildFile; fileRef = D44C0309511481556975029BAC182AD5 /* camera_cancle.png */; };
+		50611AE7AEB3EC9DA4943A40B367A77D /* EVNCameraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F112F91BF972D424B4173F759859B3B /* EVNCameraUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5073B1F95DD6A33B8D177D24072C58AC /* EVNCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D685BEE8F39F3DBFF708956682C3985 /* EVNCamera-dummy.m */; };
 		5130563D0F37B5A2D0C61AA410B8664C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA19C525E9623030ABC992A174F511EA /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		541377B1176F49D1347C13C14DC346F6 /* EVNCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FA86AE877F97835955B7EB05B9B07A /* EVNCameraView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		58A13AAAACFC15981D06352980AC1B1A /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FD50FCC28DB800D6EF0C41A1390D86 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5915BA9048C4CEBDAB45E1696B33F340 /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC2F5F757A0397EE4D8E110EDD089C7 /* photo@3x.png */; };
+		5915BA9048C4CEBDAB45E1696B33F340 /* photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FA9BDA7F9A0C3C580123BD4C8A632A /* photo@3x.png */; };
+		5BAAB41734324B4D5D60630A28F2CFE3 /* EVNCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544A7016E9051DE5D8188D26ADB1AD93 /* EVNCameraView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		60762C92264FED7C037D8C9E2F711C38 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A1F412864BD5CAE0593ED757457E90 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		61573CF886CA7A26F025D0357DC6719D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8776E5B73DEEC44515CD5BB084B50644 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		678531AE695E9A0FA791AFE3065CD2C5 /* EVNCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C673F571A71460342E16062B1C84E9C /* EVNCameraController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70471F31221FD33734F79677723EB1EA /* camera_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC55D2F491082015D29077C81FB707D /* camera_focus.png */; };
+		70471F31221FD33734F79677723EB1EA /* camera_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E4AC93EE450C77A1237AD3E1025A0F /* camera_focus.png */; };
+		7266DB1CD20B220D093A73D578F88286 /* EVNCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F1603D4023B1D16385EB357ECAFF8B /* EVNCameraController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		740DF2CEDD858BC0692E51DC820FE5BB /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD039AC2FD738DC6B7E1D233A27D2A8 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7574A17A44F1B43B9BFBE3F54DD37750 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE89CA7ABA16A169A6E2596E17A997 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		78DF55286D1792CCD9B5CD36D888E99C /* cameraFlash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F3F7EAFF09C507C64C3C95B248525D /* cameraFlash@2x.png */; };
-		7C23BDCD0AFF5B1AF9DB8064946658E5 /* UIColor+EVNExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D70052AC027A322A851C3938A6C5453F /* UIColor+EVNExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CAE7BE5F0B7C42D5FA2594B3F06D4D4 /* camea_round_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5143286EBBAD44EBC1270D3A863BD1E8 /* camea_round_gray.png */; };
+		78DF55286D1792CCD9B5CD36D888E99C /* cameraFlash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9059648DB74EB544E2FD65F786DD62E4 /* cameraFlash@2x.png */; };
+		7CAE7BE5F0B7C42D5FA2594B3F06D4D4 /* camea_round_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F9FAEC79078E3BDF265B0A0B8D5B86 /* camea_round_gray.png */; };
 		7FB10B2DF63A1DB7802393CFEEC518FE /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C7867A74BA9B3C8E4D7EC302A7C69E06 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		801745BBCC44B53B0D080E1577DB321E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72DBB73011C979E0760EFE7BA0A768 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		89F3F6B1669BE220B1670D46DF7C320F /* EVNCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBCF1486A60E45DD94A7A1F368FBE1E /* EVNCameraView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8CF6DCB53D0FF14FDA1A82E96E0E62AC /* EVNCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074D3829DB449E8D311EC1BBFFD50F6 /* EVNCamera-dummy.m */; };
-		8E29962C80F24004AC35D20DCC21C538 /* swapButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5F14143FC469971B9C7795A2641BA3 /* swapButton@3x.png */; };
-		90C63404F309342E4C2C004793F89B10 /* EVNCameraWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E221C6A11388CB75CA1029A5D3A551 /* EVNCameraWarnView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		912D240C2CD751E960240CB4DAEBA537 /* swapButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08B6455BE2CAEE33534D6D015DC0446 /* swapButton@2x.png */; };
+		84A2EF8A6B70F399A90D4F83D190BB46 /* EVNCameraTakePhotosView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8727FF7DBEDB226BB7F7178B7E469D6 /* EVNCameraTakePhotosView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E29962C80F24004AC35D20DCC21C538 /* swapButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3595A6F99708CD4793171E501358078 /* swapButton@3x.png */; };
+		912D240C2CD751E960240CB4DAEBA537 /* swapButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E12710D107162B939FA7C85B91E06B81 /* swapButton@2x.png */; };
 		92B1907D95168C99654D212D716EEB01 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A719A01F16EE8808A3AC31BB852811F1 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		92E3C389F63D24300DD9F0D1E10781F8 /* EVNCameraPlayMovieView.h in Headers */ = {isa = PBXBuildFile; fileRef = CADAA608D6836AAAA365D170F463D235 /* EVNCameraPlayMovieView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A57C4CB982DA86ECDB39A7B3A3250B22 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46999533CD42BAE664E95B9935B416D0 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A65133CD38E81E9D0EC6A3CB66345E56 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119BC569782F4BD1F3ACED01A9CA8EC9 /* Masonry-dummy.m */; };
 		A91CC316CEEF90DFEC0E37AD7ACAD7C8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F843975670B4F8AE5B714AB02EF1B0 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		ACD56512B1D11FF8B17E0497FF2921ED /* NSString+EVNExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E59BFACF5ADB1638E06741A05F3101D /* NSString+EVNExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ADCBB81F810869230ACD27FFEB3FE63C /* photoSelect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C48127022ED4FF3343EA62A214275B6 /* photoSelect@3x.png */; };
+		ADCBB81F810869230ACD27FFEB3FE63C /* photoSelect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42243A30A951B176FA1D480531C3DF22 /* photoSelect@3x.png */; };
 		B225676C0094F54DC8DFE1417A328C18 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E749F55680892BBF11110631172966 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B4809B992DAABE3FDD473B53AE56FEF5 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6722EDE7B90102FA7687FF83CB0FA29 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5A4B9A3E7106A3233633F5738084D56 /* EVNCameraShowImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4BF9F506F400A3AC30ACD819692372 /* EVNCameraShowImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BDBD2480FD8C0C2945823CF3C9EED597 /* UIColor+EVNExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B632369FDCC20BAC153076E16C1F02 /* UIColor+EVNExt.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BFE59F5CBCD76D726824448A8BE0D1FC /* EVNCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9983C8D7CA87126EACF692829BFEA246 /* EVNCameraController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B50C31B6D740AE24FF7ACC45EDB89A25 /* EVNCameraTakePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCE53E18CA70F36C12F35119CBE220 /* EVNCameraTakePhotosView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C00D9E8DEC579F39243D9B71DC732165 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 286B17CD4870DF3FD3C46BB8A2499A7A /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C2ECA330E4D0EA0E5E4E52015D64C70C /* EVNCameraTakePhotosView.h in Headers */ = {isa = PBXBuildFile; fileRef = 485521DBE2FAA3A741D316FDC88912CD /* EVNCameraTakePhotosView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C33C05D43C5226F596774F70DF508C14 /* camera_send.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A94954A0C92496B08DE701F946E4F97 /* camera_send.png */; };
+		C33C05D43C5226F596774F70DF508C14 /* camera_send.png in Resources */ = {isa = PBXBuildFile; fileRef = 39243D40A859CBA3F5D6660D44A1FEA9 /* camera_send.png */; };
+		C3BDF688034EB7D501C9302E5462F25B /* UIColor+EVNExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F8277AE14728DF07C3AECC760FFBFC /* UIColor+EVNExt.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D2E6CE132CF4B305A27702B2625071F2 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4539F7B7FF5C690B07B03365006FBC12 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D740C211C6E4CFA4331999EA7EA60EB3 /* EVNCameraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 957922E857EEAC66C1F202A030D87988 /* EVNCameraUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DAFF89998FDBF01BA3410119CFAB0BED /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 432F18DFE077C5EFC0501BA30FA26ABC /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DE102EED5498A8B34D687E321994C399 /* closeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C526D22D4C808F9DEBDEB037B3DFB1 /* closeButton@2x.png */; };
-		E06FBF56679AD1D552662186A4E5566E /* EVNCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45A116E02B57EEE9A7A31CC0DFF2CA /* EVNCameraView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E87C56A01C9CD5B8AF21DB394A892454 /* EVNCameraPlayMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD4014A5E1C9656B73832A322BAC43 /* EVNCameraPlayMovieView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE102EED5498A8B34D687E321994C399 /* closeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02E786BC620BE533BE8418666CC189C /* closeButton@2x.png */; };
+		E1D8D55FB71FCA80B650653C800E9576 /* EVNCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72537AD5010E2CF3906D619D0A9B4ED /* EVNCameraController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6D72CF1A008304D83F5D434222CB170 /* NSString+EVNExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D522CA39D409D89CDB8A7C9BCDBDF3A7 /* NSString+EVNExt.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EC14FE58210F68C055F747BA715A9BBD /* EVNCameraWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DF565667162852EE05982D7D49BC /* EVNCameraWarnView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EE12A5BBF71DFB8C0433DA50660BD2CB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CF6E3AB1AF0EBE3CF73CB4361B28E0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE2449B0625D8857E041BF473343732A /* closeButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6298A83DB42A2D1A8C187CAAE2F680 /* closeButton@3x.png */; };
-		FAA901F0BAF8C5152F3BF5CAB93934EF /* EVNCameraUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = ED592A938DB855EFA86DEA72B837D624 /* EVNCameraUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB4CD92D1B3336B99E5A35011A208326 /* EVNCameraTakePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9147FAF7F43E92CC4B48858DB0775B /* EVNCameraTakePhotosView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE2449B0625D8857E041BF473343732A /* closeButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 237EE6CBA2E0DFBA02E61D40EC14F73F /* closeButton@3x.png */; };
+		F39944A67BE84A955C0A481E7917F4D7 /* EVNCameraShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F1FB9BBB0BF6FD0EFD145D480EF37C /* EVNCameraShowImageView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F86D28D83DCD483C7514EE0AF06F0515 /* EVNCameraWarnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A3932A1671A141E5467DDEE7867720 /* EVNCameraWarnView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC9158519E7FE798740AA70067FEAD0A /* EVNCameraPlayMovieView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FF9A9A03B312C00963A459CCA19936 /* EVNCameraPlayMovieView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC927C6E264CFE0765B5A910CB5FE2AB /* NSString+EVNExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2316D5C0022701BBC31348378AC3D7BE /* NSString+EVNExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FE082F80F74E3A9BCA524203F5688226 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBBF54A61AF0E5E4D594222853BEC03 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE92631FAD3725FA854880B7F07E2D56 /* photoSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFF5ED75452BB58159C856BF2AB7E78D /* photoSelect@2x.png */; };
+		FE92631FAD3725FA854880B7F07E2D56 /* photoSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CF274C25E34810088A1B5625C2A424 /* photoSelect@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,80 +101,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0074D3829DB449E8D311EC1BBFFD50F6 /* EVNCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVNCamera-dummy.m"; sourceTree = "<group>"; };
-		03B632369FDCC20BAC153076E16C1F02 /* UIColor+EVNExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+EVNExt.m"; path = "EVNCamera/Classes/EVNCamera/Utils/UIColor+EVNExt.m"; sourceTree = "<group>"; };
+		03E5DF565667162852EE05982D7D49BC /* EVNCameraWarnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraWarnView.m; sourceTree = "<group>"; };
 		119BC569782F4BD1F3ACED01A9CA8EC9 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		123812C4123937524C96D3C4DD5965DA /* Pods-EVNCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EVNCamera-acknowledgements.plist"; sourceTree = "<group>"; };
 		13CA4F83D654B4138F8BD47F1E8E7B98 /* libPods-EVNCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EVNCamera.a"; path = "libPods-EVNCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		151905113A62304CA92A22D3373EEC77 /* EVNCameraShowImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraShowImageView.m; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraShowImageView.m; sourceTree = "<group>"; };
+		18D4C469149691DAD1465B67308B733B /* EVNCameraUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraUtil.h; sourceTree = "<group>"; };
 		191B7E1B4F214FE9F3134387162EA957 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		1C48127022ED4FF3343EA62A214275B6 /* photoSelect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photoSelect@3x.png"; path = "EVNCamera/Resources/photoSelect@3x.png"; sourceTree = "<group>"; };
-		1F5F14143FC469971B9C7795A2641BA3 /* swapButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "swapButton@3x.png"; path = "EVNCamera/Resources/swapButton@3x.png"; sourceTree = "<group>"; };
+		1D685BEE8F39F3DBFF708956682C3985 /* EVNCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVNCamera-dummy.m"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		210290B8DFDD8D04220F0E532995D68C /* Pods-EVNCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EVNCamera-dummy.m"; sourceTree = "<group>"; };
+		2316D5C0022701BBC31348378AC3D7BE /* NSString+EVNExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+EVNExt.h"; sourceTree = "<group>"; };
+		237EE6CBA2E0DFBA02E61D40EC14F73F /* closeButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "closeButton@3x.png"; path = "EVNCamera/Resources/closeButton@3x.png"; sourceTree = "<group>"; };
 		286B17CD4870DF3FD3C46BB8A2499A7A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		2908E4735BA0B1A9400806F20C78BE2E /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		298B114B7EB3F9D6A44F1C72AC8AEDC0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		2A94954A0C92496B08DE701F946E4F97 /* camera_send.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_send.png; path = EVNCamera/Resources/camera_send.png; sourceTree = "<group>"; };
+		38CF274C25E34810088A1B5625C2A424 /* photoSelect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photoSelect@2x.png"; path = "EVNCamera/Resources/photoSelect@2x.png"; sourceTree = "<group>"; };
+		39243D40A859CBA3F5D6660D44A1FEA9 /* camera_send.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_send.png; path = EVNCamera/Resources/camera_send.png; sourceTree = "<group>"; };
 		3EF422F5524EA3985CCE545881BA9B43 /* Pods-EVNCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EVNCamera-resources.sh"; sourceTree = "<group>"; };
 		40671FF5AAEBABBB84CFC1491F84928F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		41A1F412864BD5CAE0593ED757457E90 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		42243A30A951B176FA1D480531C3DF22 /* photoSelect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photoSelect@3x.png"; path = "EVNCamera/Resources/photoSelect@3x.png"; sourceTree = "<group>"; };
 		432F18DFE077C5EFC0501BA30FA26ABC /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		44D6BB2DC7A9BD85327B16DDA7625526 /* EVNCameraPlayMovieView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraPlayMovieView.m; sourceTree = "<group>"; };
+		4536E9A1350CBEA2EDC55BD57D2D75F1 /* EVNCameraShowImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraShowImageView.h; sourceTree = "<group>"; };
 		4539F7B7FF5C690B07B03365006FBC12 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		460F3F6D12B163631424C83D43FB2C71 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		4646FCDA8EEE73DACF028C48F94B38CE /* Pods-EVNCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVNCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		46999533CD42BAE664E95B9935B416D0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		485521DBE2FAA3A741D316FDC88912CD /* EVNCameraTakePhotosView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraTakePhotosView.h; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraTakePhotosView.h; sourceTree = "<group>"; };
-		4BC55D2F491082015D29077C81FB707D /* camera_focus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_focus.png; path = EVNCamera/Resources/camera_focus.png; sourceTree = "<group>"; };
-		5143286EBBAD44EBC1270D3A863BD1E8 /* camea_round_gray.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camea_round_gray.png; path = EVNCamera/Resources/camea_round_gray.png; sourceTree = "<group>"; };
-		51A68B9CC0AA027C4EA761B0E5E9A006 /* ResourceBundle-EVNCamera-EVNCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EVNCamera-EVNCamera-Info.plist"; sourceTree = "<group>"; };
-		5D4BF9F506F400A3AC30ACD819692372 /* EVNCameraShowImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraShowImageView.h; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraShowImageView.h; sourceTree = "<group>"; };
-		60D23E4CAEFB702981EC885A7FC4BC94 /* photo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo@2x.png"; path = "EVNCamera/Resources/photo@2x.png"; sourceTree = "<group>"; };
-		6AFB829BC51CC27065ECD72627E6B507 /* EVNCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EVNCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6C673F571A71460342E16062B1C84E9C /* EVNCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraController.h; path = EVNCamera/Classes/EVNCamera/Controllers/EVNCameraController.h; sourceTree = "<group>"; };
+		544A7016E9051DE5D8188D26ADB1AD93 /* EVNCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraView.m; sourceTree = "<group>"; };
+		59F8277AE14728DF07C3AECC760FFBFC /* UIColor+EVNExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EVNExt.m"; sourceTree = "<group>"; };
+		6223A54EBE91C007FC7E2A2D9272D62B /* photo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo@2x.png"; path = "EVNCamera/Resources/photo@2x.png"; sourceTree = "<group>"; };
 		6EBBF54A61AF0E5E4D594222853BEC03 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		6FC2F5F757A0397EE4D8E110EDD089C7 /* photo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo@3x.png"; path = "EVNCamera/Resources/photo@3x.png"; sourceTree = "<group>"; };
-		7BFF87D3CE53F518D3199603E50804EF /* NSString+EVNExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+EVNExt.m"; path = "EVNCamera/Classes/EVNCamera/Utils/NSString+EVNExt.m"; sourceTree = "<group>"; };
-		7D45A116E02B57EEE9A7A31CC0DFF2CA /* EVNCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraView.m; path = EVNCamera/Classes/EVNCamera/Utils/EVNCameraView.m; sourceTree = "<group>"; };
+		74F9FAEC79078E3BDF265B0A0B8D5B86 /* camea_round_gray.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camea_round_gray.png; path = EVNCamera/Resources/camea_round_gray.png; sourceTree = "<group>"; };
 		8776E5B73DEEC44515CD5BB084B50644 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		87A3932A1671A141E5467DDEE7867720 /* EVNCameraWarnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraWarnView.h; sourceTree = "<group>"; };
 		89F843975670B4F8AE5B714AB02EF1B0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		8CDFDDF1920D2B586CFA2561185C8C07 /* camera_cancle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_cancle.png; path = EVNCamera/Resources/camera_cancle.png; sourceTree = "<group>"; };
-		8D9147FAF7F43E92CC4B48858DB0775B /* EVNCameraTakePhotosView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraTakePhotosView.m; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraTakePhotosView.m; sourceTree = "<group>"; };
 		8E39DB0EFF0B5243F707E73A96F198C1 /* Pods-EVNCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EVNCamera.release.xcconfig"; sourceTree = "<group>"; };
+		8F112F91BF972D424B4173F759859B3B /* EVNCameraUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraUtil.m; sourceTree = "<group>"; };
 		8F72DBB73011C979E0760EFE7BA0A768 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		957922E857EEAC66C1F202A030D87988 /* EVNCameraUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraUtil.m; path = EVNCamera/Classes/EVNCamera/Utils/EVNCameraUtil.m; sourceTree = "<group>"; };
+		9059648DB74EB544E2FD65F786DD62E4 /* cameraFlash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraFlash@2x.png"; path = "EVNCamera/Resources/cameraFlash@2x.png"; sourceTree = "<group>"; };
+		96B5B7E49EA0F59CB6F29980CFAA2316 /* UIColor+EVNExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+EVNExt.h"; sourceTree = "<group>"; };
 		979769280246F7F2E2D152C0E42444DA /* Pods-EVNCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EVNCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
 		98CF6E3AB1AF0EBE3CF73CB4361B28E0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVNCamera.xcconfig; sourceTree = "<group>"; };
-		9983C8D7CA87126EACF692829BFEA246 /* EVNCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraController.m; path = EVNCamera/Classes/EVNCamera/Controllers/EVNCameraController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E134A2826DFF94759DEA2C891C9C5C8 /* libEVNCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEVNCamera.a; path = libEVNCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E59BFACF5ADB1638E06741A05F3101D /* NSString+EVNExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+EVNExt.h"; path = "EVNCamera/Classes/EVNCamera/Utils/NSString+EVNExt.h"; sourceTree = "<group>"; };
+		9E3B168DBF65D8BF5525FAAD5F204466 /* camera_retake.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_retake.png; path = EVNCamera/Resources/camera_retake.png; sourceTree = "<group>"; };
+		A3595A6F99708CD4793171E501358078 /* swapButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "swapButton@3x.png"; path = "EVNCamera/Resources/swapButton@3x.png"; sourceTree = "<group>"; };
+		A4FA9BDA7F9A0C3C580123BD4C8A632A /* photo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo@3x.png"; path = "EVNCamera/Resources/photo@3x.png"; sourceTree = "<group>"; };
+		A6E4AC93EE450C77A1237AD3E1025A0F /* camera_focus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_focus.png; path = EVNCamera/Resources/camera_focus.png; sourceTree = "<group>"; };
+		A6F1FB9BBB0BF6FD0EFD145D480EF37C /* EVNCameraShowImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraShowImageView.m; sourceTree = "<group>"; };
 		A719A01F16EE8808A3AC31BB852811F1 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		AC24ED5D131529816B58B497032D045D /* EVNCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVNCamera-prefix.pch"; sourceTree = "<group>"; };
-		AFF5ED75452BB58159C856BF2AB7E78D /* photoSelect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photoSelect@2x.png"; path = "EVNCamera/Resources/photoSelect@2x.png"; sourceTree = "<group>"; };
-		B08B6455BE2CAEE33534D6D015DC0446 /* swapButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "swapButton@2x.png"; path = "EVNCamera/Resources/swapButton@2x.png"; sourceTree = "<group>"; };
+		B3FA86AE877F97835955B7EB05B9B07A /* EVNCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraView.h; sourceTree = "<group>"; };
 		B6722EDE7B90102FA7687FF83CB0FA29 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		BC6298A83DB42A2D1A8C187CAAE2F680 /* closeButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "closeButton@3x.png"; path = "EVNCamera/Resources/closeButton@3x.png"; sourceTree = "<group>"; };
-		BE78A97C9E3959AC2686D568FA53A8B6 /* EVNCameraWarnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraWarnView.h; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraWarnView.h; sourceTree = "<group>"; };
 		C1FD50FCC28DB800D6EF0C41A1390D86 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C72537AD5010E2CF3906D619D0A9B4ED /* EVNCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraController.m; sourceTree = "<group>"; };
+		C75499B3E78BE6A92335FCF2E78634CA /* EVNCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVNCamera-prefix.pch"; sourceTree = "<group>"; };
 		C7867A74BA9B3C8E4D7EC302A7C69E06 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		CADAA608D6836AAAA365D170F463D235 /* EVNCameraPlayMovieView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraPlayMovieView.h; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraPlayMovieView.h; sourceTree = "<group>"; };
-		CBBCF1486A60E45DD94A7A1F368FBE1E /* EVNCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraView.h; path = EVNCamera/Classes/EVNCamera/Utils/EVNCameraView.h; sourceTree = "<group>"; };
-		CBDD4014A5E1C9656B73832A322BAC43 /* EVNCameraPlayMovieView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraPlayMovieView.m; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraPlayMovieView.m; sourceTree = "<group>"; };
 		CEC58C662DF564AED5C45A3F2B0E0E97 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		D6E221C6A11388CB75CA1029A5D3A551 /* EVNCameraWarnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVNCameraWarnView.m; path = EVNCamera/Classes/EVNCamera/Views/EVNCameraWarnView.m; sourceTree = "<group>"; };
-		D70052AC027A322A851C3938A6C5453F /* UIColor+EVNExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+EVNExt.h"; path = "EVNCamera/Classes/EVNCamera/Utils/UIColor+EVNExt.h"; sourceTree = "<group>"; };
+		CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVNCamera.xcconfig; sourceTree = "<group>"; };
+		D02E786BC620BE533BE8418666CC189C /* closeButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "closeButton@2x.png"; path = "EVNCamera/Resources/closeButton@2x.png"; sourceTree = "<group>"; };
+		D44C0309511481556975029BAC182AD5 /* camera_cancle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_cancle.png; path = EVNCamera/Resources/camera_cancle.png; sourceTree = "<group>"; };
+		D522CA39D409D89CDB8A7C9BCDBDF3A7 /* NSString+EVNExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+EVNExt.m"; sourceTree = "<group>"; };
+		E12710D107162B939FA7C85B91E06B81 /* swapButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "swapButton@2x.png"; path = "EVNCamera/Resources/swapButton@2x.png"; sourceTree = "<group>"; };
 		E1E749F55680892BBF11110631172966 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		E28BE40A980ECFA0C5E71CDF7403F7BC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		E688AC4A19E399EB2F7BEE821BA97A4B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		E6F1603D4023B1D16385EB357ECAFF8B /* EVNCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraController.h; sourceTree = "<group>"; };
 		E977F704FEF539BB423BEA3EE69EE03C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		EBD039AC2FD738DC6B7E1D233A27D2A8 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		ECEE89CA7ABA16A169A6E2596E17A997 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		ED592A938DB855EFA86DEA72B837D624 /* EVNCameraUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVNCameraUtil.h; path = EVNCamera/Classes/EVNCamera/Utils/EVNCameraUtil.h; sourceTree = "<group>"; };
-		EDED77E684F1675BCED66C52D943B5E0 /* camera_retake.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_retake.png; path = EVNCamera/Resources/camera_retake.png; sourceTree = "<group>"; };
-		F2F3F7EAFF09C507C64C3C95B248525D /* cameraFlash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraFlash@2x.png"; path = "EVNCamera/Resources/cameraFlash@2x.png"; sourceTree = "<group>"; };
-		F5C526D22D4C808F9DEBDEB037B3DFB1 /* closeButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "closeButton@2x.png"; path = "EVNCamera/Resources/closeButton@2x.png"; sourceTree = "<group>"; };
+		ED879A5504B24009B6F892F23AA7E793 /* EVNCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EVNCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE2BE276096EAAF2E7B6D95374B722E8 /* ResourceBundle-EVNCamera-EVNCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EVNCamera-EVNCamera-Info.plist"; sourceTree = "<group>"; };
+		EECCE53E18CA70F36C12F35119CBE220 /* EVNCameraTakePhotosView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EVNCameraTakePhotosView.m; sourceTree = "<group>"; };
+		F0FF9A9A03B312C00963A459CCA19936 /* EVNCameraPlayMovieView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraPlayMovieView.h; sourceTree = "<group>"; };
+		F8727FF7DBEDB226BB7F7178B7E469D6 /* EVNCameraTakePhotosView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EVNCameraTakePhotosView.h; sourceTree = "<group>"; };
 		FA19C525E9623030ABC992A174F511EA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		FCE50C4663536D9A96DC62A958D7C229 /* EVNCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EVNCamera.bundle; path = "EVNCamera-EVNCamera.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -222,12 +222,20 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		156C7453EA92D4B05C5A665D98E2E32C /* Pod */ = {
+		0AF6336EFA4628ED43600B3E8269D784 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				6AFB829BC51CC27065ECD72627E6B507 /* EVNCamera.podspec */,
+				18D4C469149691DAD1465B67308B733B /* EVNCameraUtil.h */,
+				8F112F91BF972D424B4173F759859B3B /* EVNCameraUtil.m */,
+				B3FA86AE877F97835955B7EB05B9B07A /* EVNCameraView.h */,
+				544A7016E9051DE5D8188D26ADB1AD93 /* EVNCameraView.m */,
+				2316D5C0022701BBC31348378AC3D7BE /* NSString+EVNExt.h */,
+				D522CA39D409D89CDB8A7C9BCDBDF3A7 /* NSString+EVNExt.m */,
+				96B5B7E49EA0F59CB6F29980CFAA2316 /* UIColor+EVNExt.h */,
+				59F8277AE14728DF07C3AECC760FFBFC /* UIColor+EVNExt.m */,
 			);
-			name = Pod;
+			name = Utils;
+			path = EVNCamera/Classes/EVNCamera/Utils;
 			sourceTree = "<group>";
 		};
 		1B6B27532CDA9E8F1F69D6DFEF03E4EC /* Products */ = {
@@ -241,20 +249,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CF6BCD992EBCD6D9CE55C84BD8C9F77 /* EVNCamera */ = {
-			isa = PBXGroup;
-			children = (
-				9B3D2D4CAE2F5BF3A75628FFABF108B1 /* Controllers */,
-				156C7453EA92D4B05C5A665D98E2E32C /* Pod */,
-				ADDE18E27B8446D018AB4B8F5B990047 /* Resources */,
-				523B4C7EE92520C539F07562342B24A8 /* Support Files */,
-				65653D714B34EA272FB5BC19C70B2F5A /* Utils */,
-				A83267AE5EBD26405244A07352B14A82 /* Views */,
-			);
-			name = EVNCamera;
-			path = ../SubPods;
-			sourceTree = "<group>";
-		};
 		411DEA09FDB91A1271BAAE6AF2A5B0D9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,31 +257,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		523B4C7EE92520C539F07562342B24A8 /* Support Files */ = {
+		428534E626ECD5F03B5AABD9D067BAF5 /* EVNCamera */ = {
 			isa = PBXGroup;
 			children = (
-				98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */,
-				0074D3829DB449E8D311EC1BBFFD50F6 /* EVNCamera-dummy.m */,
-				AC24ED5D131529816B58B497032D045D /* EVNCamera-prefix.pch */,
-				51A68B9CC0AA027C4EA761B0E5E9A006 /* ResourceBundle-EVNCamera-EVNCamera-Info.plist */,
+				49609142F7C8FA5BDF769AD545366F66 /* Controllers */,
+				DC7B52820E3080F4A203E33FC5437A0E /* Pod */,
+				839FB88FE78F9D073715C424CF0C8243 /* Resources */,
+				835E4F1F044D79F6AD10E1A03E08539C /* Support Files */,
+				0AF6336EFA4628ED43600B3E8269D784 /* Utils */,
+				AB01071D3916DE4C7DE1CEA0CC2EFA57 /* Views */,
 			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/EVNCamera";
+			name = EVNCamera;
+			path = ../SubPods;
 			sourceTree = "<group>";
 		};
-		65653D714B34EA272FB5BC19C70B2F5A /* Utils */ = {
+		49609142F7C8FA5BDF769AD545366F66 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED592A938DB855EFA86DEA72B837D624 /* EVNCameraUtil.h */,
-				957922E857EEAC66C1F202A030D87988 /* EVNCameraUtil.m */,
-				CBBCF1486A60E45DD94A7A1F368FBE1E /* EVNCameraView.h */,
-				7D45A116E02B57EEE9A7A31CC0DFF2CA /* EVNCameraView.m */,
-				9E59BFACF5ADB1638E06741A05F3101D /* NSString+EVNExt.h */,
-				7BFF87D3CE53F518D3199603E50804EF /* NSString+EVNExt.m */,
-				D70052AC027A322A851C3938A6C5453F /* UIColor+EVNExt.h */,
-				03B632369FDCC20BAC153076E16C1F02 /* UIColor+EVNExt.m */,
+				E6F1603D4023B1D16385EB357ECAFF8B /* EVNCameraController.h */,
+				C72537AD5010E2CF3906D619D0A9B4ED /* EVNCameraController.m */,
 			);
-			name = Utils;
+			name = Controllers;
+			path = EVNCamera/Classes/EVNCamera/Controllers;
 			sourceTree = "<group>";
 		};
 		674F7631E4B305BC866389353892D9F4 /* Masonry */ = {
@@ -332,13 +323,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9B3D2D4CAE2F5BF3A75628FFABF108B1 /* Controllers */ = {
+		835E4F1F044D79F6AD10E1A03E08539C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C673F571A71460342E16062B1C84E9C /* EVNCameraController.h */,
-				9983C8D7CA87126EACF692829BFEA246 /* EVNCameraController.m */,
+				CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */,
+				1D685BEE8F39F3DBFF708956682C3985 /* EVNCamera-dummy.m */,
+				C75499B3E78BE6A92335FCF2E78634CA /* EVNCamera-prefix.pch */,
+				EE2BE276096EAAF2E7B6D95374B722E8 /* ResourceBundle-EVNCamera-EVNCamera-Info.plist */,
 			);
-			name = Controllers;
+			name = "Support Files";
+			path = "../Pods/Target Support Files/EVNCamera";
+			sourceTree = "<group>";
+		};
+		839FB88FE78F9D073715C424CF0C8243 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74F9FAEC79078E3BDF265B0A0B8D5B86 /* camea_round_gray.png */,
+				D44C0309511481556975029BAC182AD5 /* camera_cancle.png */,
+				A6E4AC93EE450C77A1237AD3E1025A0F /* camera_focus.png */,
+				9E3B168DBF65D8BF5525FAAD5F204466 /* camera_retake.png */,
+				39243D40A859CBA3F5D6660D44A1FEA9 /* camera_send.png */,
+				9059648DB74EB544E2FD65F786DD62E4 /* cameraFlash@2x.png */,
+				D02E786BC620BE533BE8418666CC189C /* closeButton@2x.png */,
+				237EE6CBA2E0DFBA02E61D40EC14F73F /* closeButton@3x.png */,
+				6223A54EBE91C007FC7E2A2D9272D62B /* photo@2x.png */,
+				A4FA9BDA7F9A0C3C580123BD4C8A632A /* photo@3x.png */,
+				38CF274C25E34810088A1B5625C2A424 /* photoSelect@2x.png */,
+				42243A30A951B176FA1D480531C3DF22 /* photoSelect@3x.png */,
+				E12710D107162B939FA7C85B91E06B81 /* swapButton@2x.png */,
+				A3595A6F99708CD4793171E501358078 /* swapButton@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A17ECF7AC25B000A2327903498E2547E /* Pods-EVNCamera */ = {
@@ -355,40 +370,20 @@
 			path = "Target Support Files/Pods-EVNCamera";
 			sourceTree = "<group>";
 		};
-		A83267AE5EBD26405244A07352B14A82 /* Views */ = {
+		AB01071D3916DE4C7DE1CEA0CC2EFA57 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CADAA608D6836AAAA365D170F463D235 /* EVNCameraPlayMovieView.h */,
-				CBDD4014A5E1C9656B73832A322BAC43 /* EVNCameraPlayMovieView.m */,
-				5D4BF9F506F400A3AC30ACD819692372 /* EVNCameraShowImageView.h */,
-				151905113A62304CA92A22D3373EEC77 /* EVNCameraShowImageView.m */,
-				485521DBE2FAA3A741D316FDC88912CD /* EVNCameraTakePhotosView.h */,
-				8D9147FAF7F43E92CC4B48858DB0775B /* EVNCameraTakePhotosView.m */,
-				BE78A97C9E3959AC2686D568FA53A8B6 /* EVNCameraWarnView.h */,
-				D6E221C6A11388CB75CA1029A5D3A551 /* EVNCameraWarnView.m */,
+				F0FF9A9A03B312C00963A459CCA19936 /* EVNCameraPlayMovieView.h */,
+				44D6BB2DC7A9BD85327B16DDA7625526 /* EVNCameraPlayMovieView.m */,
+				4536E9A1350CBEA2EDC55BD57D2D75F1 /* EVNCameraShowImageView.h */,
+				A6F1FB9BBB0BF6FD0EFD145D480EF37C /* EVNCameraShowImageView.m */,
+				F8727FF7DBEDB226BB7F7178B7E469D6 /* EVNCameraTakePhotosView.h */,
+				EECCE53E18CA70F36C12F35119CBE220 /* EVNCameraTakePhotosView.m */,
+				87A3932A1671A141E5467DDEE7867720 /* EVNCameraWarnView.h */,
+				03E5DF565667162852EE05982D7D49BC /* EVNCameraWarnView.m */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		ADDE18E27B8446D018AB4B8F5B990047 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5143286EBBAD44EBC1270D3A863BD1E8 /* camea_round_gray.png */,
-				8CDFDDF1920D2B586CFA2561185C8C07 /* camera_cancle.png */,
-				4BC55D2F491082015D29077C81FB707D /* camera_focus.png */,
-				EDED77E684F1675BCED66C52D943B5E0 /* camera_retake.png */,
-				2A94954A0C92496B08DE701F946E4F97 /* camera_send.png */,
-				F2F3F7EAFF09C507C64C3C95B248525D /* cameraFlash@2x.png */,
-				F5C526D22D4C808F9DEBDEB037B3DFB1 /* closeButton@2x.png */,
-				BC6298A83DB42A2D1A8C187CAAE2F680 /* closeButton@3x.png */,
-				60D23E4CAEFB702981EC885A7FC4BC94 /* photo@2x.png */,
-				6FC2F5F757A0397EE4D8E110EDD089C7 /* photo@3x.png */,
-				AFF5ED75452BB58159C856BF2AB7E78D /* photoSelect@2x.png */,
-				1C48127022ED4FF3343EA62A214275B6 /* photoSelect@3x.png */,
-				B08B6455BE2CAEE33534D6D015DC0446 /* swapButton@2x.png */,
-				1F5F14143FC469971B9C7795A2641BA3 /* swapButton@3x.png */,
-			);
-			name = Resources;
+			path = EVNCamera/Classes/EVNCamera/Views;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -406,7 +401,7 @@
 		D6D6B10230F406FF43E8E2077F474975 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CF6BCD992EBCD6D9CE55C84BD8C9F77 /* EVNCamera */,
+				428534E626ECD5F03B5AABD9D067BAF5 /* EVNCamera */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -416,6 +411,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7B52820E3080F4A203E33FC5437A0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED879A5504B24009B6F892F23AA7E793 /* EVNCamera.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,19 +453,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BACEF6B450F2722D7B5C8F5577A66611 /* Headers */ = {
+		FF2CEF87E54B751C42431480E43A2DAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				678531AE695E9A0FA791AFE3065CD2C5 /* EVNCameraController.h in Headers */,
-				92E3C389F63D24300DD9F0D1E10781F8 /* EVNCameraPlayMovieView.h in Headers */,
-				B5A4B9A3E7106A3233633F5738084D56 /* EVNCameraShowImageView.h in Headers */,
-				C2ECA330E4D0EA0E5E4E52015D64C70C /* EVNCameraTakePhotosView.h in Headers */,
-				FAA901F0BAF8C5152F3BF5CAB93934EF /* EVNCameraUtil.h in Headers */,
-				89F3F6B1669BE220B1670D46DF7C320F /* EVNCameraView.h in Headers */,
-				4A3C8236901DA98E1708B7705A517638 /* EVNCameraWarnView.h in Headers */,
-				ACD56512B1D11FF8B17E0497FF2921ED /* NSString+EVNExt.h in Headers */,
-				7C23BDCD0AFF5B1AF9DB8064946658E5 /* UIColor+EVNExt.h in Headers */,
+				7266DB1CD20B220D093A73D578F88286 /* EVNCameraController.h in Headers */,
+				FC9158519E7FE798740AA70067FEAD0A /* EVNCameraPlayMovieView.h in Headers */,
+				1959BEF6A508680A0EA7D134A1911B16 /* EVNCameraShowImageView.h in Headers */,
+				84A2EF8A6B70F399A90D4F83D190BB46 /* EVNCameraTakePhotosView.h in Headers */,
+				41CF0338AA26737A5C2207402AA7E2F5 /* EVNCameraUtil.h in Headers */,
+				541377B1176F49D1347C13C14DC346F6 /* EVNCameraView.h in Headers */,
+				F86D28D83DCD483C7514EE0AF06F0515 /* EVNCameraWarnView.h in Headers */,
+				FC927C6E264CFE0765B5A910CB5FE2AB /* NSString+EVNExt.h in Headers */,
+				294339A11760ADC414040CFE09B8998D /* UIColor+EVNExt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,8 +529,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ADF637A4E6E948A24C52BB344C3E3C5 /* Build configuration list for PBXNativeTarget "EVNCamera" */;
 			buildPhases = (
-				BACEF6B450F2722D7B5C8F5577A66611 /* Headers */,
-				4989CD9653C996D2F7148DCAC805863E /* Sources */,
+				FF2CEF87E54B751C42431480E43A2DAF /* Headers */,
+				591E6224D1AE20A406D04A7AE855FF58 /* Sources */,
 				564A246729A8394269CEBFBAF26A28AC /* Frameworks */,
 			);
 			buildRules = (
@@ -596,20 +599,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4989CD9653C996D2F7148DCAC805863E /* Sources */ = {
+		591E6224D1AE20A406D04A7AE855FF58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF6DCB53D0FF14FDA1A82E96E0E62AC /* EVNCamera-dummy.m in Sources */,
-				BFE59F5CBCD76D726824448A8BE0D1FC /* EVNCameraController.m in Sources */,
-				E87C56A01C9CD5B8AF21DB394A892454 /* EVNCameraPlayMovieView.m in Sources */,
-				00564B72B4BC0D7166C7FAF4B9A19E61 /* EVNCameraShowImageView.m in Sources */,
-				FB4CD92D1B3336B99E5A35011A208326 /* EVNCameraTakePhotosView.m in Sources */,
-				D740C211C6E4CFA4331999EA7EA60EB3 /* EVNCameraUtil.m in Sources */,
-				E06FBF56679AD1D552662186A4E5566E /* EVNCameraView.m in Sources */,
-				90C63404F309342E4C2C004793F89B10 /* EVNCameraWarnView.m in Sources */,
-				309DF918D251C309AD58EC2ECB91E291 /* NSString+EVNExt.m in Sources */,
-				BDBD2480FD8C0C2945823CF3C9EED597 /* UIColor+EVNExt.m in Sources */,
+				5073B1F95DD6A33B8D177D24072C58AC /* EVNCamera-dummy.m in Sources */,
+				E1D8D55FB71FCA80B650653C800E9576 /* EVNCameraController.m in Sources */,
+				06392DA16B71DEF0325D85736039CB00 /* EVNCameraPlayMovieView.m in Sources */,
+				F39944A67BE84A955C0A481E7917F4D7 /* EVNCameraShowImageView.m in Sources */,
+				B50C31B6D740AE24FF7ACC45EDB89A25 /* EVNCameraTakePhotosView.m in Sources */,
+				50611AE7AEB3EC9DA4943A40B367A77D /* EVNCameraUtil.m in Sources */,
+				5BAAB41734324B4D5D60630A28F2CFE3 /* EVNCameraView.m in Sources */,
+				EC14FE58210F68C055F747BA715A9BBD /* EVNCameraWarnView.m in Sources */,
+				E6D72CF1A008304D83F5D434222CB170 /* NSString+EVNExt.m in Sources */,
+				C3BDF688034EB7D501C9302E5462F25B /* UIColor+EVNExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,7 +727,7 @@
 		};
 		739A5965EB3C3106F0D39DE517F324DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */;
+			baseConfigurationReference = CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,7 +751,7 @@
 		};
 		7C267795FFB4AB84C7FAD5C41D112CA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */;
+			baseConfigurationReference = CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -773,7 +776,7 @@
 		};
 		89ADA2AA7D7ACA0ABE331457AA055E36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */;
+			baseConfigurationReference = CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVNCamera";
@@ -939,7 +942,7 @@
 		};
 		EB863B57F3B59498F75F5650044F3987 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E4FAE13A84A1621225BDF2FE4CDC7A /* EVNCamera.xcconfig */;
+			baseConfigurationReference = CFCDC4EA705A3E7897ED00DCC76A05DA /* EVNCamera.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVNCamera";

@@ -15,7 +15,12 @@
     "git": "https://github.com/zonghongyan/EVNCamera.git",
     "tag": "1.0.0"
   },
-  "source_files": "EVNCamera/Classes/EVNCamera/*.{h,m}",
+  "source_files": [
+    "EVNCamera/Classes/EVNCamera/*.{h,m}",
+    "EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}",
+    "EVNCamera/Classes/EVNCamera/Utils/*.{h,m}",
+    "EVNCamera/Classes/EVNCamera/Views/*.{h,m}"
+  ],
   "requires_arc": true,
   "resource_bundles": {
     "EVNCamera": [
@@ -26,19 +31,5 @@
     "Masonry": [
       "~>1.1"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Controllers",
-      "source_files": "EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}"
-    },
-    {
-      "name": "Utils",
-      "source_files": "EVNCamera/Classes/EVNCamera/Utils/*.{h,m}"
-    },
-    {
-      "name": "Views",
-      "source_files": "EVNCamera/Classes/EVNCamera/Views/*.{h,m}"
-    }
-  ]
+  }
 }

@@ -91,19 +91,22 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   
-  s.source_files = 'EVNCamera/Classes/EVNCamera/*.{h,m}'
+  s.source_files = "EVNCamera/Classes/EVNCamera/*.{h,m}", "EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}", "EVNCamera/Classes/EVNCamera/Utils/*.{h,m}", "EVNCamera/Classes/EVNCamera/Views/*.{h,m}"
   
-  s.subspec 'Controllers' do |ss|
-    ss.source_files = 'EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}'
-  end
+#  s.subspec 'Controllers' do |ss|
+#  
+#    ss.source_files = "EVNCamera/Classes/EVNCamera/Controllers/*.{h,m}"
+#  end
   
-  s.subspec 'Utils' do |ss|
-    ss.source_files = 'EVNCamera/Classes/EVNCamera/Utils/*.{h,m}'
-  end
+#  s.subspec 'Utils' do |ss|
+#      
+#    ss.source_files = "EVNCamera/Classes/EVNCamera/Utils/*.{h,m}"
+#  end
   
-  s.subspec 'Views' do |ss|
-    ss.source_files = 'EVNCamera/Classes/EVNCamera/Views/*.{h,m}'
-  end
+#  s.subspec 'Views' do |ss|
+#
+#    ss.source_files = "EVNCamera/Classes/EVNCamera/Views/*.{h,m}"
+#  end
   
   
   # s.exclude_files = "EVNCamera"
