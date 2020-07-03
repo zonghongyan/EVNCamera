@@ -1,5 +1,5 @@
 //
-//  NSString+GWExt.h
+//  NSString+EVNExt.h
 //  EVNCamera
 //
 //  Created by developer on 2017/6/9.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (GWExt)
+@interface NSString (EVNExt)
 
 /**
  \~chinese

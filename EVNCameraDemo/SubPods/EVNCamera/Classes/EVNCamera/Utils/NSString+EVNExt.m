@@ -1,13 +1,13 @@
 //
-//  NSString+GWExt.m
+//  NSString+EVNExt.m
 //  EVNCamera
 //
 //  Created by developer on 2017/6/9.
 //
 
-#import "NSString+GWExt.h"
+#import "NSString+EVNExt.h"
 
-@implementation NSString (GWExt)
+@implementation NSString (EVNExt)
 
 #pragma mark - public methods
 - (BOOL)isValid {

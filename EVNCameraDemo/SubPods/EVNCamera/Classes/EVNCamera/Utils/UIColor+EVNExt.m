@@ -1,14 +1,14 @@
 //
-//  UIColor+GWExt.m
+//  UIColor+EVNExt.m
 //  EVNCamera
 //
 //  Created by developer on 2017/6/9.
 //
 
-#import "UIColor+GWExt.h"
-#import "NSString+GWExt.h"
+#import "UIColor+EVNExt.h"
+#import "NSString+EVNExt.h"
 
-@implementation UIColor (GWExt)
+@implementation UIColor (EVNExt)
 
 #pragma mark - public methods
 + (instancetype)colorWithHexString:(NSString *)hexStr {

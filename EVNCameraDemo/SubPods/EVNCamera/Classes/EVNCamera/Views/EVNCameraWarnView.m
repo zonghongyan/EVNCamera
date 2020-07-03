@@ -8,7 +8,7 @@
 
 #import "EVNCameraWarnView.h"
 #import "Masonry.h"
-#import "UIColor+GWExt.h"
+#import "UIColor+EVNExt.h"
 
 @interface EVNCameraWarnView ()
 

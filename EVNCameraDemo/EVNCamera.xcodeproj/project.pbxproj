@@ -74,7 +74,6 @@
 				8B3B918B1EEA46E100CDAEFC /* LICENSE */,
 				8B3B918C1EEA46E100CDAEFC /* README.md */,
 				8BB3CA591F2056130009560E /* OtherViewControllers */,
-				8B3B91841EEA46C500CDAEFC /* ShotImages */,
 				8B3B914C1EEA31A700CDAEFC /* EVNCamera */,
 				8B3B91611EEA31A700CDAEFC /* EVNCameraTests */,
 				8B3B916C1EEA31A700CDAEFC /* EVNCameraUITests */,
@@ -123,13 +122,6 @@
 				8B3B916F1EEA31A700CDAEFC /* Info.plist */,
 			);
 			path = EVNCameraUITests;
-			sourceTree = "<group>";
-		};
-		8B3B91841EEA46C500CDAEFC /* ShotImages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ShotImages;
 			sourceTree = "<group>";
 		};
 		8BB3CA591F2056130009560E /* OtherViewControllers */ = {

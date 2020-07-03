@@ -1,5 +1,5 @@
 //
-//  UIColor+GWExt.h
+//  UIColor+EVNExt.h
 //  EVNCamera
 //
 //  Created by developer on 2017/6/9.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIColor (GWExt)
+@interface UIColor (EVNExt)
 
 /**
  The color's red component value in RGB color space.
